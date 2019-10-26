@@ -1,10 +1,8 @@
-BestDeal is an online Web Application for Users to login and Shop.  
-
-As any other application it has 3 User types namely, Customer, Store Manager and Salesman. 
+BestDeal is an online Web Application for Users to login and Shop. As any other application it has 3 User types namely, ***Customer, Store Manager and Salesman***. 
 
 There's a Dashboard for all the user types and also different roles assigned for each role. 
 
-This application is coded in Java with MySql Database used to store Product, Cart and Order details and MongoDB used for storing the Customer Reviews for a particular Product.
+This application is coded in Java with **MySql Database** used to store Product, Cart and Order details and **MongoDB** used for storing the Customer Reviews for a particular Product.
 
 
  **Here are few Screenshots of the *BestDeal web Application***
@@ -26,3 +24,13 @@ This application is coded in Java with MySql Database used to store Product, Car
 ![Application Landing](https://github.com/DarshanKodipalli/BestDeal-Web-Application/blob/master/Application_Screenshots/10_Write_Review.png)
 
 ![Application Landing](https://github.com/DarshanKodipalli/BestDeal-Web-Application/blob/master/Application_Screenshots/11_ViewReview.png)
+
+![Application Landing](https://github.com/DarshanKodipalli/BestDeal-Web-Application/blob/master/Application_Screenshots/12_Trending.png)
+
+![Application Landing](https://github.com/DarshanKodipalli/BestDeal-Web-Application/blob/master/Application_Screenshots/InventoryReports.png)
+
+![Application Landing](https://github.com/DarshanKodipalli/BestDeal-Web-Application/blob/master/Application_Screenshots/SalesReport.png)
+
+![Application Landing](https://github.com/DarshanKodipalli/BestDeal-Web-Application/blob/master/Application_Screenshots/Products_List.png)
+
+![Application Landing](https://github.com/DarshanKodipalli/BestDeal-Web-Application/blob/master/Application_Screenshots/OrderUpdateScreen.png)
