@@ -1,0 +1,1661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProductCatalog>
+
+<TelevisionCatalog>
+    <Television id="Sony1">
+        <name>Sony - 65" Class - LED - X950G Series - 2160p - Smart - 4K UHD TV with HDR</name>
+        <price>1599.99</price>
+        <image>images/TV/TV1.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <model>XBR55X800G</model>
+        <sku>6326668</sku>
+        <accessories>
+            <Accessory>TV1</Accessory>
+            <Accessory>TV2</Accessory>
+        </accessories>
+    </Television>
+    <Television id="Sony2">
+        <name>Sony - 55" Class - LED - X800G Series - 2160p - Smart - 4K UHD TV with HDR</name>
+        <price>689.99</price>
+        <image>images/TV/TV2.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <model>XBR56X800G</model>
+        <sku>6326662</sku>
+        <accessories>
+            <Accessory>TV3</Accessory>
+            <Accessory>TV4</Accessory>
+        </accessories>
+    </Television>
+    <Television id="Sony3">
+        <name>Sony - 85" Class - LED - X850G Series - 2160p - Smart - 4K UHD TV with HDR</name>
+        <price>2799.99</price>
+        <image>images/TV/TV3.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <model>XBR55Y800G</model>
+        <sku>6329668</sku>
+         
+    </Television>
+    <Television id="Sony4">
+        <name>Sony - 65" Class - LED - X900F Series - 2160p - Smart - 4K Ultra HD TV with HDR</name>
+        <price>1399.99</price>
+        <image>images/TV/TV4.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <model>XBR55X817G</model>
+        <sku>6329868</sku>
+         
+    </Television>
+    <Television id="Sony5">
+        <name>Sony - 65" Class - OLED - A8G Series - 2160p - Smart - 4K UHD TV with HDR</name>
+        <price>2799.99</price>
+        <image>images/TV/TV5.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <model>UBR55A817W</model>
+        <sku>6229868</sku>
+         
+    </Television>
+    <Television id="samsung1">
+        <name>Samsung - 55" Class - LED - NU6900 Series - 2160p - Smart - 4K UHD TV with HDR</name>
+        <price>379.99</price>
+        <image>images/TV/TV6.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <model>UN55NU6900FXZA</model>
+        <sku>19287429</sku>
+        <accessories>
+            <Accessory>TV5</Accessory>
+            <Accessory>TV6</Accessory>
+        </accessories>
+    </Television>
+    <Television id="samsung2">
+        <name>Samsung - 40" Class - LED - 5 Series - 1080p - Smart - HDTV</name>
+        <price>199.99</price>
+        <image>images/TV/TV7.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <model>UN55NU6900ABIL</model>
+        <sku>12287429</sku>
+         
+    </Television>
+    <Television id="samsung3">
+        <name>Samsung - 75" Class - LED - 7 Series - 2160p - Smart - 4K UHD TV with HDR</name>
+        <price>1199.00</price>
+        <image>images/TV/TV8.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <model>UN55NU6909IXZA</model>
+        <sku>19289929</sku>
+         
+    </Television>
+    <Television id="samsung4">
+        <name>Samsung - 65" Class - LED - Q70 Series - 2160p - Smart - 4K UHD TV with HDR</name>
+        <price>1399.99</price>
+        <image>images/TV/TV9.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <model>UN55NU9943FXZA</model>
+        <sku>19287423</sku>
+         
+    </Television>
+    <Television id="samsung5">
+        <name>Samsung - 65" Class - LED - 8 Series - 2160p - Smart - 4K UHD TV with HDR</name>
+        <price>1099.99</price>
+        <image>images/TV/TV10.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <model>UN55NU6900FXOK</model>
+        <sku>19287429</sku>
+         
+    </Television>
+    <Television id="vizio1">
+        <name>VIZIO - 40" Class - LED - D-Series - 1080p - Smart - HDTV</name>
+        <price>199.99</price>
+        <image>images/TV/TV11.jpg</image>
+        <manufacturer>Vizio</manufacturer>
+        <model>D40F-G9</model>
+        <sku>19284827</sku>
+         
+    </Television>
+    <Television id="vizio2">
+        <name>VIZIO - 50" Class - LED - M-Series Quantum Series - 2160p - Smart - 4K UHD TV with HDR</name>
+        <price>399.99</price>
+        <image>images/TV/TV12.jpg</image>
+        <manufacturer>Vizio</manufacturer>
+        <model>D40F-G1</model>
+        <sku>19284811</sku>
+         
+    </Television>
+    <Television id="vizio3">
+        <name>VIZIO - 50" Class - LED - V-Series - 2160p - Smart - 4K UHD TV with HDR</name>
+        <price>299.99</price>
+        <image>images/TV/TV13.jpg</image>
+        <manufacturer>Vizio</manufacturer>
+        <model>D40F-I8</model>
+        <sku>19284827</sku>
+         
+    </Television>
+    <Television id="vizio4">
+        <name>VIZIO - 65" Class - LED - P Series Quantum X Series - 2160p - Smart - 4K UHD TV with HDR</name>
+        <price>1599.99</price>
+        <image>images/TV/TV14.jpg</image>
+        <manufacturer>Vizio</manufacturer>
+        <model>W10F-IH</model>
+        <sku>19994827</sku>
+         
+    </Television>
+    <Television id="vizio5">
+        <name>VIZIO - 32" Class - LED - D-Series - 1080p - Smart - HDTV</name>
+        <price>169.99</price>
+        <image>images/TV/TV15.jpg</image>
+        <manufacturer>Vizio</manufacturer>
+        <model>JU76-G9</model>
+        <sku>19284827</sku>
+         
+    </Television>
+    <Television id="lg1">
+        <name>LG - 65" Class - LED - UK6090PUA Series - 2160p - Smart - 4K UHD TV with HDR</name>
+        <price>529.99</price>
+        <image>images/TV/TV16.jpg</image>
+        <manufacturer>LG</manufacturer>
+        <model>65UK6090PUA</model>
+        <sku>18276812</sku>
+         
+    </Television>    
+    <Television id="lg2">
+        <name>LG - 55" Class - LED - UM6910PUC Series - 2160p - Smart - 4K UHD TV with HDR</name>
+        <price>899.99</price>
+        <image>images/TV/TV17.jpg</image>
+        <manufacturer>LG</manufacturer>
+        <model>65UK6090PJI</model>
+        <sku>19976812</sku>
+         
+    </Television>    
+    <Television id="lg3">
+        <name>LG - 65" Class - OLED - C9PUA Series - 2160p - Smart - 4K UHD TV with HDR</name>
+        <price>2499.99</price>
+        <image>images/TV/TV18.jpg</image>
+        <manufacturer>LG</manufacturer>
+        <model>65UK6099ORR</model>
+        <sku>23276812</sku>
+         
+    </Television>    
+    <Television id="lg4">
+        <name>LG - 65" Class - LED - UM7300PUA Series - 2160p - Smart - 4K UHD TV with HDR</name>
+        <price>699.99</price>
+        <image>images/TV/TV19.jpg</image>
+        <manufacturer>LG</manufacturer>
+        <model>65US6090PUA</model>
+        <sku>18279012</sku>
+         
+    </Television>    
+
+    <Television id="tcl1">
+        <name>TCL - 50" Class - LED - 4 Series - 2160p - Smart - 4K UHD TV with HDR - Roku TV</name>
+        <price>279.99</price>
+        <image>images/TV/TV20.jpg</image>
+        <manufacturer>TCL</manufacturer>
+        <model>50S425SKU</model>
+        <sku>3453463</sku>
+         
+    </Television>    
+    <Television id="tcl2">
+        <name>TCL - 55" Class - LED - 6 Series - 2160p - Smart - 4K UHD TV with HDR Roku TV</name>
+        <price>499.99</price>
+        <image>images/TV/TV21.jpg</image>
+        <manufacturer>TCL</manufacturer>
+        <model>50S425NHY</model>
+        <sku>3453463</sku>
+         
+    </Television>    
+    <Television id="tcl3">
+        <name>TCL - 55" Class - LED - 5 Series - 2160p - Smart - 4K UHD TV with HDR Roku TV</name>
+        <price>349.99</price>
+        <image>images/TV/TV22.jpg</image>
+        <manufacturer>TCL</manufacturer>
+        <model>50S586SKU</model>
+        <sku>3453463</sku>
+         
+    </Television>    
+    <Television id="tcl4">
+        <name>TCL - 40" Class - LED - 3-Series - 1080p - Smart - HDTV Roku TV</name>
+        <price>197.99</price>
+        <image>images/TV/TV23.jpg</image>
+        <manufacturer>TCL</manufacturer>
+        <model>50S425UIU</model>
+        <sku>3453463</sku>
+         
+    </Television>    
+    <Television id="tcl5">
+        <name>TCL - 32" Class - LED - 3-Series - 1080p - Smart - HDTV Roku TV</name>
+        <price>149.99</price>
+        <image>images/TV/TV24.jpg</image>
+        <manufacturer>TCL</manufacturer>
+        <model>50S424OPK</model>
+        <sku>3453463</sku>
+         
+    </Television>    
+</TelevisionCatalog> 
+
+<SoundSystemsCatalog>
+    <soundsystems id="home1">
+        <name>Yamaha - 725W 5.1-Ch. Hi-Res 3D Home Theater Speaker System - Black</name>
+        <price>479.99</price>
+        <image>images/SOUNDSYSTEMS/SS1.jpg</image>
+        <manufacturer>Home</manufacturer>
+        <model>YHT-4950UBL</model>
+        <sku>3453463</sku>
+         
+    </soundsystems>        
+    <soundsystems id="home2">
+        <name>Polk Audio - Blackstone TL1600 and Denon AVR-S540BT</name>
+        <price>499.99</price>
+        <image>images/SOUNDSYSTEMS/SS2.jpg</image>
+        <manufacturer>Home</manufacturer>
+        <model>TL987-JH4950UBL</model>
+        <sku>3453463</sku>
+        <accessories>
+            <Accessory>SOUNDS1</Accessory>
+            <Accessory>SOUNDS2</Accessory>
+        </accessories>
+    </soundsystems>        
+    <soundsystems id="home3">
+        <name>Boytone - 2.1-Ch. Home Theater System - Black</name>
+        <price>54.99</price>
+        <image>images/SOUNDSYSTEMS/SS3.jpg</image>
+        <manufacturer>Home</manufacturer>
+        <model>BT-3129F</model>
+        <sku>98123712</sku>
+         
+    </soundsystems>        
+    <soundsystems id="home4">
+        <name>Bose® - Lifestyle® 650 home entertainment system - Black</name>
+        <price>3999.99</price>
+        <image>images/SOUNDSYSTEMS/SS4.jpg</image>
+        <manufacturer>Home</manufacturer>
+        <model>LIFESTYLE 650 SYSTEM BLACK</model>
+        <sku>12378123</sku>
+         
+    </soundsystems>        
+    <soundsystems id="home5">
+        <name>Bose® - Lifestyle® 600 home entertainment system - Black</name>
+        <price>2999.99</price>
+        <image>images/SOUNDSYSTEMS/SS5.jpg</image>
+        <manufacturer>Home</manufacturer>
+        <model>LIFESTYLE 600 SYSTEM BLACK</model>
+        <sku>3453463</sku>
+         
+    </soundsystems>        
+    <soundsystems id="sound1">
+        <name>Samsung - 3.1-Channel 340W Soundbar System with 6-1/2" Wireless Subwoofer - Charcoal Black</name>
+        <price>349.99</price>
+        <image>images/SOUNDSYSTEMS/SS6.jpg</image>
+        <manufacturer>Sound</manufacturer>
+        <model>HW-R650/ZA</model>
+        <sku>0918238</sku>
+         
+    </soundsystems>        
+    <soundsystems id="sound2">
+        <name>Sonos - PLAYBAR Soundbar Wireless Speaker - Black/Silver</name>
+        <price>699.99</price>
+        <image>images/SOUNDSYSTEMS/SS7.jpg</image>
+        <manufacturer>Sound</manufacturer>
+        <model>PRC87687BJBAJ-REW34</model>
+        <sku>8028043</sku>
+         
+    </soundsystems>        
+    <soundsystems id="sound3">
+        <name>Samsung - 2.1-Channel 200W Soundbar System with 6-1/2" Wireless Subwoofer - Charcoal Black</name>
+        <price>169.99</price>
+        <image>images/SOUNDSYSTEMS/SS8.jpg</image>
+        <manufacturer>Sound</manufacturer>
+        <model>HW-R450/ZA</model>
+        <sku>123123</sku>
+         
+    </soundsystems>        
+    <soundsystems id="sound4">
+        <name>Polk Audio - 2.1-Channel Soundbar System with 5-1/4" Wireless Subwoofer - Black</name>
+        <price>149.99</price>
+        <image>images/SOUNDSYSTEMS/SS9.jpg</image>
+        <manufacturer>Sound</manufacturer>
+        <model>IJ-19273/WA</model>
+        <sku>0918238</sku>
+         
+    </soundsystems>        
+    <soundsystems id="sound5">
+        <name>Bose® - Solo 5 TV Soundbar - Black</name>
+        <price>199.99</price>
+        <image>images/SOUNDSYSTEMS/SS10.jpg</image>
+        <manufacturer>Sound</manufacturer>
+        <model>HW-H876/BS</model>
+        <sku>0918238</sku>
+         
+    </soundsystems>        
+    <soundsystems id="speaker1">
+        <name>Klipsch - Reference 4" 35W 2-Way Powered Monitors (Pair) - Black</name>
+        <price>399.99</price>
+        <image>images/SOUNDSYSTEMS/SS11.jpg</image>
+        <manufacturer>Speaker</manufacturer>
+        <model>HA-128/JK</model>
+        <sku>1231233</sku>
+         
+    </soundsystems>        
+    <soundsystems id="speaker2">
+        <name>Klipsch - Reference Series 4" 100-Watt Passive 2-Way Height Channel Speakers (Pair) - Black</name>
+        <price>299.99</price>
+        <image>images/SOUNDSYSTEMS/SS12.jpg</image>
+        <manufacturer>Speaker</manufacturer>
+        <model>HA-kjdsa/JK</model>
+        <sku>1231233</sku>
+         
+    </soundsystems>        
+    <soundsystems id="speaker3">
+        <name>Klipsch - Reference Series 10" 150W Powered Subwoofer - Black</name>
+        <price>349.99</price>
+        <image>images/SOUNDSYSTEMS/SS13.jpg</image>
+        <manufacturer>Speaker</manufacturer>
+        <model>1065957 R-100SW</model>
+        <sku>1231233</sku>
+         
+    </soundsystems>        
+    <soundsystems id="speaker4">
+        <name>Klipsch - Reference Series Quad 3-1/2" 400-Watt Passive 2-Way Center-Channel Speaker - Black</name>
+        <price>349.99</price>
+        <image>images/SOUNDSYSTEMS/SS14.jpg</image>
+        <manufacturer>Speaker</manufacturer>
+        <model>1065837 R-34-C</model>
+        <sku>0192367862</sku>
+         
+    </soundsystems>        
+    <soundsystems id="speaker5">
+        <name>Sony - Core Series Dual 5" 3-Way Floorstanding Speaker (Each) - Black</name>
+        <price>199.99</price>
+        <image>images/SOUNDSYSTEMS/SS15.jpg</image>
+        <manufacturer>Speaker</manufacturer>
+        <model>SSCS3SKU</model>
+        <sku>8357612</sku>
+         
+    </soundsystems>        
+    <soundsystems id="stereo1">
+        <name>Victrola - VC-525 Analog FM Clock Radio - Gold/Black</name>
+        <price>64.99</price>
+        <image>images/SOUNDSYSTEMS/SS16.jpg</image>
+        <manufacturer>Stereo</manufacturer>
+        <model>VC-525</model>
+        <sku>8357612</sku>
+         
+    </soundsystems>        
+    <soundsystems id="stereo2">
+        <name>LG - XBOOM 700W Main Unit and Speaker System Combo Set - Black</name>
+        <price>175.99</price>
+        <image>images/SOUNDSYSTEMS/SS17.jpg</image>
+        <manufacturer>Stereo</manufacturer>
+        <model>LG-123</model>
+        <sku>8357612</sku>
+         
+    </soundsystems>        
+    <soundsystems id="stereo3">
+        <name>Sony - Powered Wireless 2-Way Speaker (Each) - Black</name>
+        <price>499.99</price>
+        <image>images/SOUNDSYSTEMS/SS18.jpg</image>
+        <manufacturer>Stereo</manufacturer>
+        <model>SONY-525</model>
+        <sku>8357612</sku>
+         
+    </soundsystems>        
+    <soundsystems id="stereo4">
+        <name>Victrola - Retro Wood Bluetooth AM/FM Radio - Walnut</name>
+        <price>39.99</price>
+        <image>images/SOUNDSYSTEMS/SS19.jpg</image>
+        <manufacturer>Stereo</manufacturer>
+        <model>VR-32525</model>
+        <sku>8357612</sku>
+         
+    </soundsystems>        
+    <soundsystems id="stereo5">
+        <name>Boytone - 2.1-Ch. Home Theater System - Black</name>
+        <price>54.99</price>
+        <image>images/SOUNDSYSTEMS/SS20.jpg</image>
+        <manufacturer>Stereo</manufacturer>
+        <model>BT-525</model>
+        <sku>8357612</sku>
+         
+    </soundsystems>        
+    <soundsystems id="wireless1">
+        <name>Logitech - Wireless Bluetooth Speaker Adapter - Black</name>
+        <price>22.99</price>
+        <image>images/SOUNDSYSTEMS/SS21.jpg</image>
+        <manufacturer>Wireless</manufacturer>
+        <model>LT-525</model>
+        <sku>23894737</sku>
+         
+    </soundsystems>        
+    <soundsystems id="wireless2">
+        <name>Sonos - Play:1 Wireless Smart Speaker for Streaming Music - Black</name>
+        <price>149.99</price>
+        <image>images/SOUNDSYSTEMS/SS22.jpg</image>
+        <manufacturer>Wireless</manufacturer>
+        <model>SONOS-525</model>
+        <sku>23894737</sku>
+         
+    </soundsystems>        
+    <soundsystems id="wireless3">
+        <name>Sonos - One (Gen 2) Smart Speaker with Voice Control built-in - Black</name>
+        <price>199.99</price>
+        <image>images/SOUNDSYSTEMS/SS23.jpg</image>
+        <manufacturer>Wireless</manufacturer>
+        <model>SONOS-757</model>
+        <sku>23894737</sku>
+        <accessories>
+            <Accessory>SOUNDS3</Accessory>
+            <Accessory>SOUNDS4</Accessory>
+        </accessories>
+    </soundsystems>        
+    <soundsystems id="wireless4">
+        <name>Aluratek - Bluetooth Audio Transmitter - Black</name>
+        <price>29.99</price>
+        <image>images/SOUNDSYSTEMS/SS24.jpg</image>
+        <manufacturer>Wireless</manufacturer>
+        <model>ABT05FSKU</model>
+        <sku>23894737</sku>
+         
+    </soundsystems>        
+    <soundsystems id="wireless5">
+        <name>Bose® - Home Speaker 500 with Built-In Amazon Alexa and Google Assistant Voice Control - Triple Black</name>
+        <price>399.99</price>
+        <image>images/SOUNDSYSTEMS/SS25.jpg</image>
+        <manufacturer>Wireless</manufacturer>
+        <model>795345-1100</model>
+        <sku>23894737</sku>
+         
+    </soundsystems>
+</SoundSystemsCatalog>
+
+<SmartPhoneCatalog>
+    <phone id="samsungphone1">
+        <name>Samsung - Galaxy S8+ 64GB - Midnight Black (Sprint)</name>
+        <price>699.99</price>
+        <image>images/PHONE/P1.jpg</image>
+        <manufacturer>SamsungP</manufacturer>
+        <model>SPHG955UBLK</model>
+        <sku>23894737</sku>
+                 
+    </phone>        
+    <phone id="samsungphone2">
+        <name>Samsung - Galaxy J7 TOP - Black (Verizon)</name>
+        <price>249.99</price>
+        <image>images/PHONE/P2.jpg</image>
+        <manufacturer>SamsungP</manufacturer>
+        <model>SMGG955UPPL</model>
+        <sku>23894737</sku>
+                 
+    </phone>        
+    <phone id="samsungphone3">
+        <name>Samsung - Galaxy J7 Refine (2018) - Gold (Sprint)</name>
+        <price>399.99</price>
+        <image>images/PHONE/P3.jpg</image>
+        <manufacturer>SamsungP</manufacturer>
+        <model>SPHJ737PGLDSKU</model>
+        <sku>1237687</sku>
+                 
+    </phone>        
+    <phone id="samsungphone4">
+        <name>Samsung - Galaxy J3 Achieve (2018) - Black (Sprint)</name>
+        <price>129.99</price>
+        <image>images/PHONE/P4.jpg</image>
+        <manufacturer>SamsungP</manufacturer>
+        <model>SPHJ337PBLKSKU</model>
+        <sku>23894737</sku>
+                 
+    </phone>        
+    <phone id="samsungphone5">
+        <name>Samsung - Galaxy J3 (2018) (AT'nT)</name>
+        <price>49.99</price>
+        <image>images/PHONE/P5.jpg</image>
+        <manufacturer>SamsungP</manufacturer>
+        <model>6482BSKU</model>
+        <sku>918273912</sku>
+                 
+    </phone>        
+    <phone id="applephone1">
+        <name>Apple - iPhone XS Max 64GB - Gold (Verizon)</name>
+        <price>999.99</price>
+        <image>images/PHONE/P6.jpg</image>
+        <manufacturer>Apple</manufacturer>
+        <model>MT5C2LL/A</model>
+        <sku>6009879</sku>
+                 
+    </phone>        
+    <phone id="applephone2">
+        <name>Apple - iPhone 11 Pro 64GB - Midnight Green (Verizon)</name>
+        <price>1699.99</price>
+        <image>images/PHONE/P7.jpg</image>
+        <manufacturer>Apple</manufacturer>
+        <model>HY87687GH/A</model>
+        <sku>6009879</sku>
+                 
+    </phone>        
+    <phone id="applephone3">
+        <name>Apple - iPhone XR 64GB - White (AT'nT)</name>
+        <price>840.00</price>
+        <image>images/PHONE/P8.jpg</image>
+        <manufacturer>Apple</manufacturer>
+        <model>I757JLP/J</model>
+        <sku>6009879</sku>
+                 
+    </phone>        
+    <phone id="applephone4">
+        <name>Apple - iPhone 7 32GB - Black (Sprint)</name>
+        <price>649.99</price>
+        <image>images/PHONE/P9.jpg</image>
+        <manufacturer>Apple</manufacturer>
+        <model>NJ876TYJ/E</model>
+        <sku>6009879</sku>
+                 
+    </phone>        
+    <phone id="applephone5">
+        <name>Apple - iPhone 8 64GB - Gold (AT'nT)</name>
+        <price>849.99</price>
+        <image>images/PHONE/P10.jpg</image>
+        <manufacturer>Apple</manufacturer>
+        <model>JK87HJF/1A</model>
+        <sku>6009879</sku>
+                 
+    </phone>        
+    <phone id="googlephone1">
+        <name>Google - Pixel 3 XL - Just Black (Sprint)</name>
+        <price>799.99</price>
+        <image>images/PHONE/P11.jpg</image>
+        <manufacturer>Google</manufacturer>
+        <model>JKANSDDH/1A</model>
+        <sku>987498123</sku>
+                 
+    </phone>        
+    <phone id="googlephone2">
+        <name>Google - Pixel 3 with 64GB Memory Cell Phone (Unlocked) - Just Black</name>
+        <price>449.99</price>
+        <image>images/PHONE/P12.jpg</image>
+        <manufacturer>Google</manufacturer>
+        <model>NNKJASD68/1A</model>
+        <sku>987498123</sku>
+                 
+    </phone>        
+    <phone id="googlephone3">
+        <name>Google - Pixel 3a with 64GB Memory Cell Phone (Unlocked) - Purple-ish</name>
+        <price>299.99</price>
+        <image>images/PHONE/P13.jpg</image>
+        <manufacturer>Google</manufacturer>
+        <model>NKJSS687</model>
+        <sku>987498123</sku>
+        <accessories>
+            <Accessory>PHONE1</Accessory>
+            <Accessory>PHONE2</Accessory>
+        </accessories>        
+    </phone>        
+    <phone id="googlephone4">
+        <name>Google - Pixel 3 XL 128GB - Just Black (Verizon)</name>
+        <price>699.99</price>
+        <image>images/PHONE/P14.jpg</image>
+        <manufacturer>Google</manufacturer>
+        <model>INKSJD/1A</model>
+        <sku>987498123</sku>
+                 
+    </phone>        
+    <phone id="googlephone5">
+        <name>Google - Geek Squad Certified Refurbished Pixel 2 XL with 64GB Memory Cell Phone - Just Black (Verizon)</name>
+        <price>679.99</price>
+        <image>images/PHONE/P15.jpg</image>
+        <manufacturer>Google</manufacturer>
+        <model>NKJGDJASD/1A</model>
+        <sku>987498123</sku>
+                 
+    </phone>        
+    <phone id="nokiaphone5">
+        <name>AT'nT Prepaid - Nokia 3.1 A with 32GB Memory Prepaid Cell Phone - Black</name>
+        <price>79.99</price>
+        <image>images/PHONE/P16.jpg</image>
+        <manufacturer>Nokia</manufacturer>
+        <model>NKJBA6567HJ/1A</model>
+        <sku>10298367</sku>
+                 
+    </phone>        
+    <phone id="nokiaphone1">
+        <name>Nokia - 3310 Cell Phone (Unlocked) - Charcoal</name>
+        <price>19.99</price>
+        <image>images/PHONE/P17.jpg</image>
+        <manufacturer>Nokia</manufacturer>
+        <model>NKJSDB7868/1A</model>
+        <sku>10298367</sku>
+                 
+    </phone>        
+    <phone id="nokiaphone2">
+        <name>Nokia - 2.2 with 32GB Memory Cell Phone (Unlocked) - Steel</name>
+        <price>149.99</price>
+        <image>images/PHONE/P18.jpg</image>
+        <manufacturer>Nokia</manufacturer>
+        <model>NKJBK8712683BJH/1A</model>
+        <sku>10298367</sku>
+                 
+    </phone>        
+    <phone id="nokiaphone3">
+        <name>Nokia - 7.1 with 64GB Memory Cell Phone (Unlocked) - Blue</name>
+        <price>299.99</price>
+        <image>images/PHONE/P19.jpg</image>
+        <manufacturer>Nokia</manufacturer>
+        <model>FGCA87687GHJ/1A</model>
+        <sku>10298367</sku>
+                 
+    </phone>        
+    <phone id="nokiaphone4">
+        <name>Nokia - 4.2 with 32GB Memory Cell Phone (Unlocked) - Pink Sand</name>
+        <price>193.99</price>
+        <image>images/PHONE/P20.jpg</image>
+        <manufacturer>Nokia</manufacturer>
+        <model>LKOA65465BH/1A</model>
+        <sku>10298367</sku>
+                 
+    </phone>        
+    <phone id="motorolaphone1">
+        <name>Cricket Wireless - Motorola Moto G6 Forge with 16GB Memory Prepaid Cell Phone - Deep Indigo</name>
+        <price>99.99</price>
+        <image>images/PHONE/P21.jpg</image>
+        <manufacturer>Motorola</manufacturer>
+        <model>NKJBSD/IAUSND</model>
+        <sku>10298367</sku>
+                 
+    </phone>        
+    <phone id="motorolaphone2">
+        <name>Motorola - Moto Z3 Play with 32GB Memory Cell Phone (Unlocked) - Deep Indigo</name>
+        <price>149.99</price>
+        <image>images/PHONE/P22.jpg</image>
+        <manufacturer>Motorola</manufacturer>
+        <model>ABJSD/IAUSND</model>
+        <sku>10298367</sku>
+        <accessories>
+            <Accessory>PHONE3</Accessory>
+            <Accessory>PHONE4</Accessory>
+        </accessories>        
+    </phone>        
+    <phone id="motorolaphone3">
+        <name>Motorola - Moto G7 Play with 32GB Memory Cell Phone (Unlocked) - Deep Indigo</name>
+        <price>129.99</price>
+        <image>images/PHONE/P23.jpg</image>
+        <manufacturer>Motorola</manufacturer>
+        <model>NKJBSD/MKLNMLA</model>
+        <sku>10298367</sku>
+                 
+    </phone>        
+    <phone id="motorolaphone4">
+        <name>Motorola - Motorola One with 64GB Memory Cell Phone (Unlocked) - White</name>
+        <price>199.99</price>
+        <image>images/PHONE/P24.jpg</image>
+        <manufacturer>Motorola</manufacturer>
+        <model>NKJBSD/IAUSND</model>
+        <sku>10298367</sku>
+                 
+    </phone>        
+    <phone id="motorolaphone5">
+        <name>Verizon Prepaid - Motorola Moto E5 go - Black</name>
+        <price>29.99</price>
+        <image>images/PHONE/P25.jpg</image>
+        <manufacturer>Motorola</manufacturer>
+        <model>JKSBD/IAUSND</model>
+        <sku>10298367</sku>
+                 
+    </phone>
+</SmartPhoneCatalog>        
+
+<LaptopCatalog>
+    <laptop id="dell1">
+        <name>Dell - Inspiron 2-in-1 13.3" 4K Ultra HD Touch-Screen Laptop - Intel Core i7 - 16GB Memory</name>
+        <price>1399.99</price>
+        <image>images/LAPTOP/L1.jpg</image>
+        <manufacturer>Dell</manufacturer>
+        <model>NKJABS/IAUSND</model>
+        <sku>10298367</sku>
+                 
+    </laptop>            
+    <laptop id="dell2">
+        <name>Dell - Inspiron 15.6" 7000 2-in-1 4K Ultra HD Touch-Screen Laptop - Intel Core i7 - 16GB - GeForce MX250 - 512GB SSD + Optane - Black</name>
+        <price>1199.99</price>
+        <image>images/LAPTOP/L2.jpg</image>
+        <manufacturer>Dell</manufacturer>
+        <model>NKJABS/JHAJVHS</model>
+        <sku>10298367</sku>
+                 
+    </laptop>            
+    <laptop id="dell3">
+        <name>Dell - Inspiron 2-in-1 13.3" Touch-Screen Laptop - Intel Core i5 - 8GB Memory - 256GB Solid State Drive - Silver</name>
+        <price>849.99</price>
+        <image>images/LAPTOP/L3.jpg</image>
+        <manufacturer>Dell</manufacturer>
+        <model>VHGAER/IAUSND</model>
+        <sku>10298367</sku>
+                 
+    </laptop>            
+    <laptop id="hp1">
+        <name>HP - ENVY x360 2-in-1 15.6" Touch-Screen Laptop - Intel Core i7 - 8GB Memory - 512GB SSD</name>
+        <price>999.99</price>
+        <image>images/LAPTOP/L4.jpg</image>
+        <manufacturer>HP</manufacturer>
+        <model>VHGAER/JHB765</model>
+        <sku>10298367</sku>
+                 
+    </laptop>            
+    <laptop id="hp2">
+        <name>HP - 15.6" Touch-Screen Laptop - Intel Core i5 - 12GB Memory - 256GB SSD + Optane - Natural Silver</name>
+        <price>549.99</price>
+        <image>images/LAPTOP/L5.jpg</image>
+        <manufacturer>HP</manufacturer>
+        <model>NIUGS/JHB765</model>
+        <sku>10298367</sku>
+        <accessories>
+            <Accessory>LAPTOP1</Accessory>
+            <Accessory>LAPTOP2</Accessory>
+        </accessories>        
+    </laptop>            
+    <laptop id="hp3">
+        <name>HP - Envy 17.3" Touch-Screen Laptop - Intel Core i7 - 12GB Memory - 512GB SSD + Optane - </name>
+        <price>999.99</price>
+        <image>images/LAPTOP/L6.jpg</image>
+        <manufacturer>HP</manufacturer>
+        <model>VHGAER/JHB765</model>
+        <sku>10298367</sku>
+                 
+    </laptop>            
+    <laptop id="mac1">
+        <name>Apple - MacBook Air 13.3" Refurbished Laptop - Intel Core i5 - 4GB Memory - 128GB Solid State Drive - Silver </name>
+        <price>679.99</price>
+        <image>images/LAPTOP/L7.jpg</image>
+        <manufacturer>MAC</manufacturer>
+        <model>MAC/UBKJ</model>
+        <sku>10298367</sku>
+                 
+    </laptop>            
+    <laptop id="mac2">
+        <name>Apple - MacBook Air 13.3" Laptop with Touch ID - Intel Core i5 - 8GB Memory - 128GB Solid State Drive (Latest Model) - Space Gray </name>
+        <price>1099.99</price>
+        <image>images/LAPTOP/L8.jpg</image>
+        <manufacturer>MAC</manufacturer>
+        <model>MAC/UBKJ</model>
+        <sku>10298367</sku>
+                 
+    </laptop>            
+    <laptop id="mac3">
+        <name>Apple - MacBook Air 13.3" Laptop with Touch ID - Intel Core i5 - 8GB Memory - 256GB Solid State Drive (Latest Model) - Space Gray</name>
+        <price>1299.99</price>
+        <image>images/LAPTOP/L9.jpg</image>
+        <manufacturer>MAC</manufacturer>
+        <model>MAC/UBKJ</model>
+        <sku>10298367</sku>
+                 
+    </laptop>            
+    <laptop id="mac4">
+        <name>Apple - MacBook Air - 13.3" Retina Display - Intel Core i5 - 8GB Memory - 128GB Flash Storage - Space Gray</name>
+        <price>899.99</price>
+        <image>images/LAPTOP/L10.jpg</image>
+        <manufacturer>MAC</manufacturer>
+        <model>MAC/BUY876</model>
+        <sku>10298367</sku>
+                 
+    </laptop>            
+    <laptop id="lenovo1">
+        <name>Lenovo - S340-15API Touch 15.6" Touch-Screen Laptop - AMD Ryzen 5 - 12GB Memory - 1TB Hard Drive - Platinum Gray</name>
+        <price>529.99</price>
+        <image>images/LAPTOP/L11.jpg</image>
+        <manufacturer>Lenovo</manufacturer>
+        <model>MAC/LKLN875</model>
+        <sku>10298367</sku>
+                 
+    </laptop>            
+    <laptop id="lenovo2">
+        <name>Lenovo - Yoga C630 WOS 2-in-1 13.3" Touch-Screen Laptop - Snapdragon 850 - 8GB Memory - 128GB Solid State Drive (Verizon) - Iron Gray</name>
+        <price>599.99</price>
+        <image>images/LAPTOP/L12.jpg</image>
+        <manufacturer>Lenovo</manufacturer>
+        <model>MAC/LKLN875</model>
+        <sku>10298367</sku>
+                 
+    </laptop>            
+    <laptop id="lenovo3">
+        <name>Lenovo - IdeaPad 130S 11.6" Laptop - Intel Celeron - 4GB Memory - 64GB eMMC Flash Memory - Mineral Gray</name>
+        <price>159.99</price>
+        <image>images/LAPTOP/L13.jpg</image>
+        <manufacturer>Lenovo</manufacturer>
+        <model>LEN/LKLN875</model>
+        <sku>10298367</sku>
+                 
+    </laptop>            
+    <laptop id="lenovo4">
+        <name>Lenovo - L340-15API 15.6" Laptop - AMD Ryzen 3 - 8GB Memory - 1TB Hard Drive - Platinum Gray</name>
+        <price>379.99</price>
+        <image>images/LAPTOP/L14.jpg</image>
+        <manufacturer>Lenovo</manufacturer>
+        <model>LEN/NMNAB12</model>
+        <sku>75175262</sku>
+                 
+    </laptop>            
+    <laptop id="asus1">
+        <name>ASUS - 14" Touch-Screen Laptop - AMD Ryzen 5 - 8GB Memory - 256GB Solid State Drive - Silver</name>
+        <price>599.99</price>
+        <image>images/LAPTOP/L15.jpg</image>
+        <manufacturer>Asus</manufacturer>
+        <model>ASUS/NMNAB12</model>
+        <sku>75175262</sku>
+        <accessories>
+            <Accessory>LAPTOP3</Accessory>
+            <Accessory>LAPTOP4</Accessory>
+        </accessories>        
+    </laptop>            
+    <laptop id="asus2">
+        <name>ASUS - ROG G531GT 15.6" Gaming Laptop - Intel Core i7 - 8GB Memory - NVIDIA GeForce GTX 1650 - 512GB Solid State Drive - Black</name>
+        <price>849.99</price>
+        <image>images/LAPTOP/L16.jpg</image>
+        <manufacturer>Asus</manufacturer>
+        <model>ASUS/NMNAB12</model>
+        <sku>75175262</sku>
+                 
+    </laptop>            
+    <laptop id="asus3">
+        <name>ASUS - 2-in-1 15.6" 4K Ultra HD Touch-Screen Laptop Intel Core i7 - 16GB Memory NVIDIA GeForce GTX 1050 2TB HDD + 256GB SSD - Gun Metal Gray</name>
+        <price>1349.99</price>
+        <image>images/LAPTOP/L17.jpg</image>
+        <manufacturer>Asus</manufacturer>
+        <model>ASUS/HJABJS78</model>
+        <sku>75175262</sku>
+                 
+    </laptop>            
+</LaptopCatalog>
+
+<FitnessCatalog>
+    <FitnessWatch id="fitness1">
+        <name>Apple - Apple Watch Nike+ Series 4 (GPS) 44mm Space Gray Aluminum Case with Anthracite/Black Nike Sport Band - Space Gray Aluminum</name>
+        <price>397.99</price>
+        <image>images/FITNESS/F1.jpg</image>
+        <manufacturer>AppleF</manufacturer>
+        <model>Apple/HJABJS78</model>
+        <sku>75175262</sku>
+                 
+    </FitnessWatch>            
+    <FitnessWatch id="fitness2">
+        <name>Apple - Apple Watch Series 5 (GPS + Cellular) 40mm Gold Stainless Steel Case with Gold Milanese Loop - Gold Stainless Steel</name>
+        <price>749.99</price>
+        <image>images/FITNESS/F2.jpg</image>
+        <manufacturer>AppleF</manufacturer>
+        <model>Apple/KJBVHJVS</model>
+        <sku>75175262</sku>
+                 
+    </FitnessWatch>            
+    <FitnessWatch id="fitness3">
+        <name>Apple - Apple Watch Nike+ Series 3 (GPS) 42mm Space Gray Aluminum Case with Anthracite/Black Nike Sport Band - Space Gray Aluminum</name>
+        <price>229.99</price>
+        <image>images/FITNESS/F3.jpg</image>
+        <manufacturer>AppleF</manufacturer>
+        <model>AppleNUK/HJABJS78</model>
+        <sku>75175262</sku>
+                 
+    </FitnessWatch>            
+    <FitnessWatch id="fitness4">
+        <name>Apple - Apple Watch Series 3 (GPS) 38mm Space Gray Aluminum Case with Black Sport Band - Space Gray Aluminum</name>
+        <price>199.99</price>
+        <image>images/FITNESS/F4.jpg</image>
+        <manufacturer>AppleF</manufacturer>
+        <model>Apple/JHVGHH576</model>
+        <sku>75175262</sku>
+                 
+    </FitnessWatch>            
+
+    <FitnessWatch id="fitness5">
+        <name>Samsung - Galaxy Watch Active2 Smartwatch 40mm Aluminum - Cloud Silver</name>
+        <price>279.99</price>
+        <image>images/FITNESS/F5.jpg</image>
+        <manufacturer>SamsungF</manufacturer>
+        <model>SamSUNG/KJBVHJVS</model>
+        <sku>75175262</sku>
+                 
+    </FitnessWatch>            
+    <FitnessWatch id="fitness6">
+        <name>Samsung - Galaxy Watch Active Smartwatch 40mm Aluminum - Black</name>
+        <price>199.99</price>
+        <image>images/FITNESS/F6.jpg</image>
+        <manufacturer>SamsungF</manufacturer>
+        <model>ASNKJASC12/HJABJS78</model>
+        <sku>75175262</sku>
+                 
+    </FitnessWatch>            
+    <FitnessWatch id="fitness7">
+        <name>Samsung - Geek Squad Certified Refurbished Gear Fit2 Pro Fitness Watch (Large) - Black</name>
+        <price>179.99</price>
+        <image>images/FITNESS/F7.jpg</image>
+        <manufacturer>SamsungF</manufacturer>
+        <model>Apple/JHVGHH576</model>
+        <sku>75175262</sku>
+                 
+    </FitnessWatch>            
+
+    <FitnessWatch id="fitness8">
+        <name>Garmin - Forerunner 35 GPS Watch - White</name>
+        <price>110.99</price>
+        <image>images/FITNESS/F8.jpg</image>
+        <manufacturer>Gramin</manufacturer>
+        <model>GRAmin/KJBVHJVS</model>
+        <sku>75175262</sku>
+                 
+    </FitnessWatch>            
+    <FitnessWatch id="fitness9">
+        <name>Garmin - Forerunner 35 GPS Watch - Black</name>
+        <price>129.99</price>
+        <image>images/FITNESS/F9.jpg</image>
+        <manufacturer>Gramin</manufacturer>
+        <model>JHBAFS/HJABJS78</model>
+        <sku>75175262</sku>
+        <accessories>
+            <Accessory>FITNESS1</Accessory>
+            <Accessory>FITNESS2</Accessory>
+        </accessories>        
+    </FitnessWatch>            
+    <FitnessWatch id="fitness10">
+        <name>Garmin - Fēnix 6X Pro Solar GPS/GLONASS/Galileo Watch - Black</name>
+        <price>999.99</price>
+        <image>images/FITNESS/F10.jpg</image>
+        <manufacturer>Gramin</manufacturer>
+        <model>BJHVHAST/JHVGHH576</model>
+        <sku>75175262</sku>
+                 
+    </FitnessWatch>            
+
+    <FitnessWatch id="fitness11">
+        <name>Fitbit - Ionic Smartwatch - Charcoal/smoke gray</name>
+        <price>249.99</price>
+        <image>images/FITNESS/F11.jpg</image>
+        <manufacturer>Fitbit</manufacturer>
+        <model>FITBIT/KJBVHJVS</model>
+        <sku>75175262</sku>
+                 
+    </FitnessWatch>            
+    <FitnessWatch id="fitness12">
+        <name>Fitbit - Versa Lite Edition Smartwatch - Silver with Charcoal Silicone Band</name>
+        <price>159.99</price>
+        <image>images/FITNESS/F12.jpg</image>
+        <manufacturer>Fitbit</manufacturer>
+        <model>JHBAFS/HJABJS78</model>
+        <sku>75175262</sku>
+                 
+    </FitnessWatch>            
+    <FitnessWatch id="fitness13">
+        <name>Fitbit - Inspire HR Activity Tracker + Heart Rate - Black</name>
+        <price>99.99</price>
+        <image>images/FITNESS/F13.jpg</image>
+        <manufacturer>Fitbit</manufacturer>
+        <model>BHJATCS/JHVGHH576</model>
+        <sku>75175262</sku>
+                 
+    </FitnessWatch>            
+    <FitnessWatch id="fitness14">
+        <name>Fitbit - Versa 2 Smartwatch 40mm Aluminum - Black/Carbon with Silicone Band</name>
+        <price>199.99</price>
+        <image>images/FITNESS/F14.jpg</image>
+        <manufacturer>Fitbit</manufacturer>
+        <model>NKJABD/KJBVHJVS</model>
+        <sku>75175262</sku>
+                 
+    </FitnessWatch>            
+    <FitnessWatch id="fitness15">
+        <name>Suunto - Traverse Alpha GPS Watch - Stealth</name>
+        <price>363.63</price>
+        <image>images/FITNESS/F15.jpg</image>
+        <manufacturer>Suunto</manufacturer>
+        <model>JHBAFS/HJABJS78</model>
+        <sku>75175262</sku>
+                 
+    </FitnessWatch>            
+    <FitnessWatch id="fitness16">
+        <name>Suunto - Spartan Trainer GPS Heart Rate Monitor Sports Watch - Black</name>
+        <price>279.63</price>
+        <image>images/FITNESS/F16.jpg</image>
+        <manufacturer>Suunto</manufacturer>
+        <model>JHBAFS/128738y12i</model>
+        <sku>75175262</sku>
+                 
+    </FitnessWatch>            
+    <FitnessWatch id="fitness17">
+        <name>Suunto - 9 GPS Multisport Watch - Black</name>
+        <price>509.63</price>
+        <image>images/FITNESS/F17.jpg</image>
+        <manufacturer>Suunto</manufacturer>
+        <model>JHBAFS/12873UJHB</model>
+        <sku>75175262</sku>
+                 
+    </FitnessWatch>                    
+</FitnessCatalog>
+
+<SmartWatchCatalog>
+    <SmartWatch id="smart1">
+        <name>Samsung - Gear S3 Wireless Charging Dock - Black</name>
+        <price>39.63</price>
+        <image>images/SMART/S1.jpg</image>
+        <manufacturer>Samsungs</manufacturer>
+        <model>IUKJNCSD/78687</model>
+        <sku>75175262</sku>
+                 
+    </SmartWatch>            
+    <SmartWatch id="smart2">
+        <name>Samsung - Galaxy Watch Active2 Smartwatch 44mm Stainless Steel LTE (Unlocked) - Gold</name>
+        <price>449.99</price>
+        <image>images/SMART/S2.jpg</image>
+        <manufacturer>Samsungs</manufacturer>
+        <model>VHGCARE/78687</model>
+        <sku>7646546</sku>
+                 
+    </SmartWatch>            
+    <SmartWatch id="smart3">
+        <name>Samsung - Geek Squad Certified Refurbished Gear Fit2 Pro Fitness Watch (Large) - Black</name>
+        <price>179.99</price>
+        <image>images/SMART/S3.jpg</image>
+        <manufacturer>Samsungs</manufacturer>
+        <model>IUKJNCSD/979454</model>
+        <sku>75175262</sku>
+                 
+    </SmartWatch>            
+
+    <SmartWatch id="smart4">
+        <name>Garmin - Forerunner 35 GPS Watch - Frost blue</name>
+        <price>129.99</price>
+        <image>images/SMART/S4.jpg</image>
+        <manufacturer>Gramins</manufacturer>
+        <model>IUKJNCSD/78687</model>
+        <sku>75175262</sku>
+                 
+    </SmartWatch>            
+    <SmartWatch id="smart5">
+        <name>Garmin - Forerunner 35 GPS Watch - Black</name>
+        <price>129.99</price>
+        <image>images/SMART/S5.jpg</image>
+        <manufacturer>Gramins</manufacturer>
+        <model>VHGCARE/78687</model>
+        <sku>7646546</sku>
+                 
+    </SmartWatch>            
+    <SmartWatch id="smart6">
+        <name>Garmin - Forerunner 235 GPS Running Watch - Black/Gray</name>
+        <price>229.99</price>
+        <image>images/SMART/S6.jpg</image>
+        <manufacturer>Gramins</manufacturer>
+        <model>IUKJNCSD/979454</model>
+        <sku>75175262</sku>
+                 
+    </SmartWatch>            
+
+    <SmartWatch id="smart7">
+        <name>ZAGG - InvisibleShield HD Clear for Fitbit Versa and Versa Lite - Crystal Clear</name>
+        <price>14.99</price>
+        <image>images/SMART/S7.jpg</image>
+        <manufacturer>ZAGG</manufacturer>
+        <model>ZAGG/78687</model>
+        <sku>75175262</sku>
+                 
+    </SmartWatch>            
+    <SmartWatch id="smart8">
+        <name>ZAGG - HD Clear Shield Screen Protector for Apple Watch™ 42mm - Clear</name>
+        <price>10.99</price>
+        <image>images/SMART/S8.jpg</image>
+        <manufacturer>ZAGG</manufacturer>
+        <model>ZAGG/78687</model>
+        <sku>7646546</sku>
+                 
+    </SmartWatch>            
+    <SmartWatch id="smart9">
+        <name>Pebble - Leather Band for 14mm Pebble Time Round Smartwatches - Opera Red</name>
+        <price>11.99</price>
+        <image>images/SMART/S9.jpg</image>
+        <manufacturer>Pebble</manufacturer>
+        <model>IUKJNCSD/979454</model>
+        <sku>75175262</sku>
+                 
+    </SmartWatch>            
+    <SmartWatch id="smart10">
+        <name>WITHit - Band Kit for Fitbit Ionic (2-Pack) - Green/Black</name>
+        <price>24.99</price>
+        <image>images/SMART/S10.jpg</image>
+        <manufacturer>WITHit</manufacturer>
+        <model>IUKJNCSD/979454</model>
+        <sku>75175262</sku>
+                 
+    </SmartWatch>            
+</SmartWatchCatalog>
+
+<HeadphoneCatalog>
+    <Headphone id="headphones1">
+        <name>Beats by Dr. Dre - Beats Studio³ Wireless Noise Canceling Headphones - Matte Black</name>
+        <price>349.99</price>
+        <image>images/HEADPHONES/H1.jpg</image>
+        <manufacturer>Beats</manufacturer>
+        <model>BEATS/979454</model>
+        <sku>75175262</sku>
+                 
+    </Headphone>            
+    <Headphone id="headphones2">
+        <name>Beats by Dr. Dre - Beats EP Headphones - Black</name>
+        <price>84.99</price>
+        <image>images/HEADPHONES/H2.jpg</image>
+        <manufacturer>Beats</manufacturer>
+        <model>BEATS/19283721</model>
+        <sku>75175262</sku>
+                 
+    </Headphone>            
+    <Headphone id="headphones3">
+        <name>Beats by Dr. Dre - Powerbeats Pro Totally Wireless Earphones - Black</name>
+        <price>249.99</price>
+        <image>images/HEADPHONES/H3.jpg</image>
+        <manufacturer>Beats</manufacturer>
+        <model>BEATS/979454</model>
+        <sku>75175262</sku>
+        <accessories>
+            <Accessory>HEADPHONES1</Accessory>
+            <Accessory>HEADPHONES2</Accessory>
+        </accessories>        
+    </Headphone>            
+    <Headphone id="headphones4">
+        <name>Beats by Dr. Dre - Beats Solo³ Wireless Headphones - Black</name>
+        <price>149.99</price>
+        <image>images/HEADPHONES/H4.jpg</image>
+        <manufacturer>Beats</manufacturer>
+        <model>BEATS/01927</model>
+        <sku>75175262</sku>
+                 
+    </Headphone>            
+
+    <Headphone id="headphones5">
+        <name>Sony - ZX Series Wired On-Ear Headphones - Black</name>
+        <price>250.99</price>
+        <image>images/HEADPHONES/H5.jpg</image>
+        <manufacturer>SonyH</manufacturer>
+        <model>SONY/979454</model>
+        <sku>75175262</sku>
+                 
+    </Headphone>            
+    <Headphone id="headphones6">
+        <name>Sony - Noise-Canceling Wired On-Ear Headphones - Black</name>
+        <price>84.99</price>
+        <image>images/HEADPHONES/H6.jpg</image>
+        <manufacturer>SonyH</manufacturer>
+        <model>SONYH/19283721</model>
+        <sku>75175262</sku>
+                 
+    </Headphone>            
+    <Headphone id="headphones7">
+        <name>Sony - WH-CH700N Wireless Noise Canceling Over-the-Ear Headphones - Black</name>
+        <price>129.99</price>
+        <image>images/HEADPHONES/H7.jpg</image>
+        <manufacturer>SonyH</manufacturer>
+        <model>JHGSD/979454</model>
+        <sku>75175262</sku>
+                 
+    </Headphone>            
+    <Headphone id="headphones8">
+        <name>Bose® - SoundSport® Wireless In-Ear Headphones - Black</name>
+        <price>129.99</price>
+        <image>images/HEADPHONES/H8.jpg</image>
+        <manufacturer>Bose</manufacturer>
+        <model>Bose/01927</model>
+        <sku>75175262</sku>
+                 
+    </Headphone>            
+    <Headphone id="headphones9">
+        <name>Bose® - QuietComfort 35 Wireless Noise Cancelling Headphones II - Black</name>
+        <price>349.99</price>
+        <image>images/HEADPHONES/H9.jpg</image>
+        <manufacturer>Bose</manufacturer>
+        <model>BOSW/y87231</model>
+        <sku>75175262</sku>
+                 
+    </Headphone>            
+    <Headphone id="headphones10">
+        <name>Skullcandy - Indy True Wireless In-Ear Headphones - Black</name>
+        <price>79.99</price>
+        <image>images/HEADPHONES/H10.jpg</image>
+        <manufacturer>Skullcandy</manufacturer>
+        <model>SKULL/19283721</model>
+        <sku>75175262</sku>
+                 
+    </Headphone>            
+    <Headphone id="headphones14">
+        <name>Skullcandy - Push True Wireless In-Ear Headphones - Psychotropical Teal</name>
+        <price>99.99</price>
+        <image>images/HEADPHONES/H11.jpg</image>
+        <manufacturer>Skullcandy</manufacturer>
+        <model>SKULL/19283721</model>
+        <sku>75175262</sku>
+                 
+    </Headphone>               
+    <Headphone id="headphones15">
+        <name>Skullcandy - Sesh True Wireless In-Ear Headphones - Black</name>
+        <price>59.99</price>
+        <image>images/HEADPHONES/H12.jpg</image>
+        <manufacturer>Skullcandy</manufacturer>
+        <model>SKULL/19283721</model>
+        <sku>75175262</sku>
+                 
+    </Headphone>                 
+    <Headphone id="headphones11">
+        <name>Sennheiser - HD 4.50 BTNC Wireless Over-the-Ear Noise Canceling Headphones - Black</name>
+        <price>149.99</price>
+        <image>images/HEADPHONES/H13.jpg</image>
+        <manufacturer>Sennheizer</manufacturer>
+        <model>SENN/979454</model>
+        <sku>75175262</sku>
+                 
+    </Headphone>            
+    <Headphone id="headphones12">
+        <name>Sennheiser - MOMENTUM True Wireless Earbud Headphones - Silver/Black</name>
+        <price>299.99</price>
+        <image>images/HEADPHONES/H14.jpg</image>
+        <manufacturer>Sennheizer</manufacturer>
+        <model>SENN/182637</model>
+        <sku>75175262</sku>
+                 
+    </Headphone>            
+    <Headphone id="headphones13">
+        <name>Sennheiser - Momentum (M2) Wireless Over-the-Ear Headphones - Black</name>
+        <price>249.99</price>
+        <image>images/HEADPHONES/H15.jpg</image>
+        <manufacturer>Sennheizer</manufacturer>
+        <model>SENN/817623</model>
+        <sku>75175262</sku>
+                 
+    </Headphone>                    
+</HeadphoneCatalog>
+
+<WirelessPlanCatalog>
+    <WirelessPlan id="wireless1">
+        <name>TracFone Wireless - $99.99 Basic Phone Card</name>
+        <price>99.99</price>
+        <image>images/WIRELESS/W1.jpg</image>
+        <manufacturer>Basic</manufacturer>
+        <model>BASIC/979454</model>
+        <sku>75175262</sku>
+                 
+    </WirelessPlan>            
+    <WirelessPlan id="wireless2">
+        <name>TracFone Wireless - $39.99 Basic Phone Card</name>
+        <price>39.99</price>
+        <image>images/WIRELESS/W2.jpg</image>
+        <manufacturer>Basic</manufacturer>
+        <model>BASIC/8162</model>
+        <sku>75175262</sku>
+                 
+    </WirelessPlan>            
+    <WirelessPlan id="wireless3">
+        <name>TracFone Wireless - $19.99 Basic Phone Card</name>
+        <price>19.99</price>
+        <image>images/WIRELESS/W3.jpg</image>
+        <manufacturer>Basic</manufacturer>
+        <model>BASIC/11266</model>
+        <sku>75175262</sku>
+                 
+    </WirelessPlan>            
+    <WirelessPlan id="wireless4">
+        <name>Cricket Wireless - $30 Refill Card</name>
+        <price>30.00</price>
+        <image>images/WIRELESS/W4.jpg</image>
+        <manufacturer>Premium</manufacturer>
+        <model>PREM/979454</model>
+        <sku>187238612</sku>
+                 
+    </WirelessPlan>            
+    <WirelessPlan id="wireless5">
+        <name>Cricket Wireless - $55 Refill Card</name>
+        <price>55.00</price>
+        <image>images/WIRELESS/W5.jpg</image>
+        <manufacturer>Premium</manufacturer>
+        <model>premium/8162</model>
+        <sku>75175262</sku>
+                 
+    </WirelessPlan>            
+    <WirelessPlan id="wireless6">
+        <name>Cricket Wireless - $60 Refill Card</name>
+        <price>60.00</price>
+        <image>images/WIRELESS/W6.jpg</image>
+        <manufacturer>Premium</manufacturer>
+        <model>BASIC/11266</model>
+        <sku>75175262</sku>
+                 
+    </WirelessPlan>            
+    <WirelessPlan id="wireless7">
+        <name>Simple Mobile - Truly Unlimited 2-Line 30-Day Plan</name>
+        <price>75.00</price>
+        <image>images/WIRELESS/W7.jpg</image>
+        <manufacturer>Ultimate</manufacturer>
+        <model>Ultimate/979454</model>
+        <sku>75175262</sku>
+                 
+    </WirelessPlan>            
+    <WirelessPlan id="wireless8">
+        <name>AT'nT - $35 Prepaid Phone Card</name>
+        <price>35.00</price>
+        <image>images/WIRELESS/W8.jpg</image>
+        <manufacturer>Ultimate</manufacturer>
+        <model>ULTM/1S43D</model>
+        <sku>75175262</sku>
+                 
+    </WirelessPlan>            
+    <WirelessPlan id="wireless9">
+        <name>T-Mobile - $50 Refill Card</name>
+        <price>50.00</price>
+        <image>images/WIRELESS/W9.jpg</image>
+        <manufacturer>Basic</manufacturer>
+        <model>BASIC/11266</model>
+        <sku>75175262</sku>
+                 
+    </WirelessPlan>            
+</WirelessPlanCatalog>
+
+<VoiceAssistantCatalog>
+    <VoiceAssistant id="voice1">
+        <name>Google - Home - Smart Speaker with Google Assistant - White/Slate</name>
+        <price>99.99</price>
+        <image>images/VOICE/V1.jpg</image>
+        <manufacturer>GoogleV</manufacturer>
+        <model>HomeSKU</model>
+        <sku>12763126</sku>
+                         
+    </VoiceAssistant>
+    <VoiceAssistant id="voice2">
+        <name>Google - Nest Hub Max with Google Assistant - Chalk</name>
+        <price>229.99</price>
+        <image>images/VOICE/V2.jpg</image>
+        <manufacturer>GoogleV</manufacturer>
+        <model>GA00426-US</model>
+        <sku>0192809312</sku>
+                         
+    </VoiceAssistant>
+    <VoiceAssistant id="voice3">
+        <name>Google - Home Mini - Smart Speaker with Google Assistant - Charcoal</name>
+        <price>49.99</price>
+        <image>images/VOICE/V3.jpg</image>
+        <manufacturer>GoogleV</manufacturer>
+        <model>GA00216-US</model>
+        <sku>97752136</sku>
+                         
+    </VoiceAssistant>
+
+    <VoiceAssistant id="voice4">
+        <name>Amazon - Echo Spot - smart alarm clock with Alexa - Black</name>
+        <price>129.99</price>
+        <image>images/VOICE/V4.jpg</image>
+        <manufacturer>Amazon</manufacturer>
+        <model>B073SQYXTW</model>
+        <sku>172654522</sku>
+                         
+    </VoiceAssistant>
+    <VoiceAssistant id="voice5">
+        <name>Amazon - Echo Show 5 Smart Display with Alexa - Charcoal</name>
+        <price>64.99</price>
+        <image>images/VOICE/V5.jpg</image>
+        <manufacturer>Amazon</manufacturer>
+        <model>B07HZLHPKP</model>
+        <sku>6347249</sku>
+                         
+    </VoiceAssistant>
+    <VoiceAssistant id="voice6">
+        <name>Amazon - Echo Dot (3rd Gen) - Smart Speaker with Alexa - Heather Gray</name>
+        <price>94.99</price>
+        <image>images/VOICE/V6.jpg</image>
+        <manufacturer>Amazon</manufacturer>
+        <model>GA00216-UK</model>
+        <sku>97752136</sku>
+                         
+    </VoiceAssistant>
+
+    <VoiceAssistant id="voice7">
+        <name>Amazon - Echo (2nd Gen) - Smart Speaker with Alexa - Charcoal Fabric</name>
+        <price>99.99</price>
+        <image>images/VOICE/V7.jpg</image>
+        <manufacturer>Amazon</manufacturer>
+        <model>B073SQYXKI</model>
+        <sku>1278836182</sku>
+                         
+    </VoiceAssistant>
+    <VoiceAssistant id="voice8">
+        <name>iHome - iBT58 Portable Bluetooth Speaker with Siri Voice Assistant - Black</name>
+        <price>12.99</price>
+        <image>images/VOICE/V8.jpg</image>
+        <manufacturer>iHome</manufacturer>
+        <model>118273UBF123</model>
+        <sku>6347249</sku>
+                         
+    </VoiceAssistant>
+    <VoiceAssistant id="voice9">
+        <name>iHome - iBT588 Portable Bluetooth Speaker with Siri Voice Assistant - Black</name>
+        <price>23.99</price>
+        <image>images/VOICE/V9.jpg</image>
+        <manufacturer>iHome</manufacturer>
+        <model>IHnkjasd-UK</model>
+        <sku>97752136</sku>
+                         
+    </VoiceAssistant>
+
+    <VoiceAssistant id="voice10">
+        <name>iHome - iGV1 Wireless Smart Speaker with Google Voice Assistant - White</name>
+        <price>139.99</price>
+        <image>images/VOICE/V10.jpg</image>
+        <manufacturer>iHome</manufacturer>
+        <model>IGV1WC</model>
+        <sku>19283789</sku>
+                         
+    </VoiceAssistant>
+    <VoiceAssistant id="voice11">
+        <name>Sony - SRS-XB501G Wireless Speaker for Streaming Music with Google Voice Assistant - Black</name>
+        <price>299.99</price>
+        <image>images/VOICE/V11.jpg</image>
+        <manufacturer>SonyV</manufacturer>
+        <model>118273UBF123</model>
+        <sku>6347249</sku>
+                         
+    </VoiceAssistant>
+    <VoiceAssistant id="voice12">
+        <name>Lenovo - 8" Smart Display with Google Assistant - White Front/Gray Back</name>
+        <price>199.99</price>
+        <image>images/VOICE/V12.jpg</image>
+        <manufacturer>LenovoV</manufacturer>
+        <model>ZA3R0001US</model>
+        <sku>127891273</sku>
+                         
+    </VoiceAssistant>
+    <VoiceAssistant id="voice13">
+        <name>Lenovo - Smart Tab M10 - 10.1" - Tablet - 16GB - Slate Black</name>
+        <price>179.99</price>
+        <image>images/VOICE/V13.jpg</image>
+        <manufacturer>LenovoV</manufacturer>
+        <model>ZA480121US</model>
+        <sku>1278687136</sku>
+                         
+    </VoiceAssistant>
+    <VoiceAssistant id="voice14">
+        <name>Lenovo - Smart Clock with Google Assistant - Gray</name>
+        <price>79.99</price>
+        <image>images/VOICE/V14.jpg</image>
+        <manufacturer>LenovoV</manufacturer>
+        <model>99837JGHVF123</model>
+        <sku>6347249</sku>                
+    </VoiceAssistant>
+</VoiceAssistantCatalog>  
+
+    <AccessoryCatalog>
+        <Accessory id="TV1">
+            <name>AudioQuest - Forest 3'4" 4K Ultra HD In-Wall HDMI Cable - Black/Green Stripe</name>
+            <price>55.98</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/7500/7500088_sa.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>AudioQuest</manufacturer>
+            <model>HDMFOR01</model>
+            <sku>7500088</sku>                
+        </Accessory>
+        <Accessory id="TV2">
+            <name>Rocketfish™ - 4' 4K UltraHD/HDR In-Wall Rated HDMI Cable - Black</name>
+            <price>24.99</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3720/3720002_sd.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>Rocketfish</manufacturer>
+            <model>RF-HG04501</model>
+            <sku>3720002</sku>                
+        </Accessory>
+        <Accessory id="TV3">
+            <name>Rocketfish™ - 6' RG6 In-Wall Indoor/Outdoor Coaxial A/V Cable - Black</name>
+            <price>12.99</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6602/6602795_sd.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>Rocketfish</manufacturer>
+            <model>RF-HG04502</model>
+            <sku>7500028</sku>                
+        </Accessory>
+        <Accessory id="TV4">
+            <name>Insignia™ - HDMI Cable Extender - Black</name>
+            <price>14.98</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4770/4770800_sd.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>Insignia</manufacturer>
+            <model>NS-HZ316</model>
+            <sku>128937129</sku>                
+        </Accessory>
+        <Accessory id="TV5">
+            <name>Rocketfish™ - Ultra Thin HDTV Antenna - Black/White</name>
+            <price>14.98</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4798/4798102_rd.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>Rocketfish</manufacturer>
+            <model>RF-ANT316</model>
+            <sku>4798102</sku>                
+        </Accessory>
+        <Accessory id="TV6">
+            <name>Antennas Direct - ClearStream 2MAX Indoor/Outdoor HDTV Antenna - Black</name>
+            <price>79.99</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5851/5851201_sd.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>Antennas Direct</manufacturer>
+            <model>C2MVJ-5</model>
+            <sku>1813218</sku>                
+        </Accessory>
+
+        <Accessory id="SOUNDS1">
+            <name>Gemini - Wireless Vocal Microphone System</name>
+            <price>69.99</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5712/5712745_sa.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>Gemini</manufacturer>
+            <model>VHF-02M</model>
+            <sku>13432234</sku>                
+        </Accessory>
+        <Accessory id="SOUNDS2">
+            <name>Samson - Stage Wireless Microphone System</name>
+            <price>144.99</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5624/5624188_sd.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>Samson</manufacturer>
+            <model>SWS200HH-B</model>
+            <sku>5624188</sku>                
+        </Accessory>
+        <Accessory id="SOUNDS3">
+            <name>PYLE - Pro Wireless Microphone System</name>
+            <price>159.98</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1404/1404451_sa.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>PYLE</manufacturer>
+            <model>PDWM5500</model>
+            <sku>1404451</sku>                
+        </Accessory>
+        <Accessory id="SOUNDS4">
+            <name>Nady - 200-Channel UHF Wireless Microphone System</name>
+            <price>199.99</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5712/5712742_sd.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>Nady</manufacturer>
+            <model>U-2100 LT/O (BAND A/B)</model>
+            <sku>5712742</sku>                
+        </Accessory>
+
+        <Accessory id="PHONE1">
+            <name>iOttie - Easy One Touch 4 Wireless Charging Dash and Windshield Car Mount - Black</name>
+            <price>49.99</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6031/6031806_sd.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>iOttie</manufacturer>
+            <model>HLCRIO134SKU</model>
+            <sku>1423432423</sku>                
+        </Accessory>
+        <Accessory id="PHONE2">
+            <name>PopSockets - PopGrip - Black</name>
+            <price>9.99</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6331/6331946_rd.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>PopSockets</manufacturer>
+            <model>7881805</model>
+            <sku>14232343</sku>                
+        </Accessory>
+        <Accessory id="PHONE3">
+            <name>Insignia™ - Car Holder for Mobile Phones - Black</name>
+            <price>19.98</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6239/6239147_rd.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>Insignia</manufacturer>
+            <model>NS-MVTM</model>
+            <sku>1404451</sku>                
+        </Accessory>
+        <Accessory id="PHONE4">
+            <name>OtterBox - + Pop Symmetry Series Case for Apple® iPhone® 11 Pro Max - Black</name>
+            <price>59.99</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6361/6361891_sd.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>OtterBox</manufacturer>
+            <model>77-62631</model>
+            <sku>6361891</sku>                
+        </Accessory>
+
+        <Accessory id="LAPTOP1">
+            <name>ENHANCE - Gaming Laptop Cooling Pad Stand with LED Cooler Fans - Red</name>
+            <price>24.99</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5845/5845312_sd.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>ENHANCE</manufacturer>
+            <model>ENGXC10100RDEW</model>
+            <sku>5845312</sku>                
+        </Accessory>
+        <Accessory id="LAPTOP2">
+            <name>Solo - Studio Portfolio Laptop Briefcase - Black</name>
+            <price>36.99</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/9091/9091126_sd.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>Solo</manufacturer>
+            <model>LVL330-4</model>
+            <sku>9091126</sku>                
+        </Accessory>
+        <Accessory id="LAPTOP3">
+            <name>Targus - Dual Fan Chill Mat Cooling System - Black</name>
+            <price>29.98</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8848/8848369_sa.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>Targus</manufacturer>
+            <model>AWE61US</model>
+            <sku>98453153</sku>                
+        </Accessory>
+        <Accessory id="LAPTOP4">
+            <name>Targus - Strata II Sleeve, Wireless Mouse and Webcam Cover Value Kit - Gray/Black</name>
+            <price>44.99</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6092/6092625_sd.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>Targus</manufacturer>
+            <model>NJS192083012</model>
+            <sku>123123</sku>                
+        </Accessory>
+
+        <Accessory id="FITNESS1">
+            <name>X-Doria - Defense Edge Bumper for Apple Watch™ 40mm - Clear</name>
+            <price>19.99</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6336/6336582_rd.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>X-Doria</manufacturer>
+            <model>479530</model>
+            <sku>12646474</sku>                
+        </Accessory>
+        <Accessory id="FITNESS2">
+            <name>X-Doria - Hybrid Mesh Watch Band for Apple Watch® 38mm and 40mm - Rose Gold</name>
+            <price>36.99</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6356/6356596_rd.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>X-Doria</manufacturer>
+            <model>MKA23M-4</model>
+            <sku>4352423</sku>                
+        </Accessory>
+
+        <Accessory id="HEADPHONES1">
+            <name>Insignia™ - 3.5mm Stereo Splitter Cable - Black</name>
+            <price>9.98</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4399/4399300_sd.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>Insignia</manufacturer>
+            <model>NS-M35SPT</model>
+            <sku>8923749823</sku>                
+        </Accessory>
+        <Accessory id="HEADPHONES2">
+            <name>JLab Audio - Cloud Foam Ear Tips Kit - Black/Blue</name>
+            <price>9.99</price>
+            <image>https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6223/6223500_sd.jpg;maxHeight=640;maxWidth=550</image>
+            <manufacturer>JLab Audio</manufacturer>
+            <model>ACLOUDFOAMTIPSR5010</model>
+            <sku>8919916</sku>                
+        </Accessory>
+    </AccessoryCatalog>  
+</ProductCatalog>

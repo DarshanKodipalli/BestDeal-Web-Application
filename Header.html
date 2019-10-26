@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="./images/rsz_bd.png">  
+  <title>Bestdeal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href=https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css>
+  <link rel="stylesheet" href="./styles.css">
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+<!--   <script type='text/javascript' src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type='text/javascript' src='DataVisualization.js'></script>   -->
+  <style>
+    .card{ background-color: #fff; border: 1px solid transparent; border-radius: 6px; }
+.card > .card-link{ color: #333; }
+.card > .card-link:hover{  text-decoration: none; }
+.card > .card-link .card-img img{ border-radius: 6px 6px 0 0; }
+.card .card-img{ position: relative; padding: 0; display: table; }
+.card .card-img .card-caption{
+  position: absolute;
+  right: 0;
+  bottom: 16px;
+  left: 0;
+}
+.card .card-body{ display: table; width: 100%; padding: 12px; }
+.card .card-header{ border-radius: 6px 6px 0 0; padding: 8px; }
+.card .card-footer{ border-radius: 0 0 6px 6px; padding: 8px; }
+.card .card-left{ position: relative; float: left; padding: 0 0 8px 0; }
+.card .card-right{ position: relative; float: left; padding: 8px 0 0 0; }
+.card .card-body h1:first-child,
+.card .card-body h2:first-child,
+.card .card-body h3:first-child, 
+.card .card-body h4:first-child,
+.card .card-body .h1,
+.card .card-body .h2,
+.card .card-body .h3, 
+.card .card-body .h4{ margin-top: 0; }
+.card .card-body .heading{ display: block;  }
+.card .card-body .heading:last-child{ margin-bottom: 0; }
+
+.card .card-body .lead{ text-align: center; }
+
+@media( min-width: 768px ){
+  .card .card-left{ float: left; padding: 0 8px 0 0; }
+  .card .card-right{ float: left; padding: 0 0 0 8px; }
+    
+  .card .card-4-8 .card-left{ width: 33.33333333%; }
+  .card .card-4-8 .card-right{ width: 66.66666667%; }
+
+  .card .card-5-7 .card-left{ width: 41.66666667%; }
+  .card .card-5-7 .card-right{ width: 58.33333333%; }
+  
+  .card .card-6-6 .card-left{ width: 50%; }
+  .card .card-6-6 .card-right{ width: 50%; }
+  
+  .card .card-7-5 .card-left{ width: 58.33333333%; }
+  .card .card-7-5 .card-right{ width: 41.66666667%; }
+  
+  .card .card-8-4 .card-left{ width: 66.66666667%; }
+  .card .card-8-4 .card-right{ width: 33.33333333%; }
+}
+
+/* -- default theme ------ */
+.card-default{ 
+  border-color: #ddd;
+  background-color: #fff;
+  margin-bottom: 24px;
+}
+.card-default > .card-header,
+.card-default > .card-footer{ color: #333; background-color: #ddd; }
+.card-default > .card-header{ border-bottom: 1px solid #ddd; padding: 8px; }
+.card-default > .card-footer{ border-top: 1px solid #ddd; padding: 8px; }
+.card-default > .card-body{  }
+.card-default > .card-img:first-child img{ border-radius: 6px 6px 0 0; }
+.card-default > .card-left{ padding-right: 4px; }
+.card-default > .card-right{ padding-left: 4px; }
+.card-default p:last-child{ margin-bottom: 0; }
+.card-default .card-caption { color: #fff; text-align: center; text-transform: uppercase; }
+
+
+/* -- price theme ------ */
+.card-price{ border-color: #999; background-color: #ededed; margin-bottom: 24px; }
+.card-price > .card-heading,
+.card-price > .card-footer{ color: #333; background-color: #fdfdfd; }
+.card-price > .card-heading{ border-bottom: 1px solid #ddd; padding: 8px; }
+.card-price > .card-footer{ border-top: 1px solid #ddd; padding: 8px; }
+.card-price > .card-img:first-child img{ border-radius: 6px 6px 0 0; }
+.card-price > .card-left{ padding-right: 4px; }
+.card-price > .card-right{ padding-left: 4px; }
+.card-price .card-caption { color: #fff; text-align: center; text-transform: uppercase; }
+.card-price p:last-child{ margin-bottom: 0; }
+
+.card-price .price{ 
+  text-align: center; 
+  color: #337ab7; 
+  font-size: 3em; 
+  text-transform: uppercase;
+  line-height: 0.7em; 
+  margin: 24px 0 16px;
+}
+.card-price .price small{ font-size: 0.4em; color: #66a5da; }
+.card-price .details{ list-style: none; margin-bottom: 24px; padding: 0 18px; }
+.card-price .details li{ text-align: center; margin-bottom: 8px; }
+.card-price .buy-now{ text-transform: uppercase; }
+.card-price table .price{ font-size: 1.2em; font-weight: 700; text-align: left; }
+.card-price table .note{ color: #666; font-size: 0.8em; }
+
+  </style>
+  <script>
+
+
+  function get_action(form) 
+  {
+      var v = grecaptcha.getResponse();
+      if(v.length == 0)
+      {
+          document.getElementById('captcha').innerHTML="You can't leave Captcha Code empty";
+          return false;
+      }
+      else
+      {
+           document.getElementById('captcha').innerHTML="Captcha completed";
+          return true; 
+      }
+  }
+
+  </script>  
+</head>
+<style media="screen">
+  .second-header{background-color:#ffffff; list-style-type: none;margin: 0;padding: 0;}
+  .second-header li{display: inline-block;width: calc(100% / 9.5);text-align: center;}
+  .side-list{list-style-type: none;margin: 0;padding: 0;}
+  #accordion a,#accordion a:hover,#accordion a:focus{text-decoration: none;}
+.panel-default,.panel-group .panel,.panel-default>.panel-heading{border-radius: 0;}
+</style>
+<body>
+<!-- header -->
+<nav class="navbar navbar-inverse" style="margin-bottom: 0;border-radius:0;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/BestDealApp/Home" style="padding-top:10px;"><img src="./images/rsz_bd.png" class="hidden-xs" width='60px'></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a style="font-size: 150%" href="/BestDealApp/Home">Best Deal</a></li>
+        <li><a style="font-size: 150%" href="/BestDealApp/Trending">Trending</a></li>
+        <li><a style="font-size: 150%" href="#">About</a></li>
+        <li class="dropdown">
+          <a style="font-size: 150%" class="dropdown-toggle" data-toggle="dropdown" href="#">Products <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="TVList?maker=sony">TV</a></li>
+            <li><a href="SoundSystemsList?maker=home">Sound Systems</a></li>
+            <li><a href="PhoneList?maker=samsungp">Phones</a></li>
+            <li><a href="LaptopList?maker=dell">Laptops</a></li>
+            <li><a href="VoiceList?maker=googlev">Voice Assistant</a></li>
+            <li><a href="FitnessList?maker=applef">Fitness Watches</a></li>
+            <li><a href="SmartList?maker=samsungs">Smart Watches</a></li>
+            <li><a href="HeadphonesList?maker=beats">Headphones</a></li>
+            <li><a href="WirelessList?maker=basic">Wireless Plans</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="input-group">
+        <input type="text" size="80" class="form-control" placeholder="Search for the Best deals!" name="search">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>

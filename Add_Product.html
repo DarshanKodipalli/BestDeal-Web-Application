@@ -1,0 +1,102 @@
+<div class="container-fluid">
+  <div class="container-fluid">
+    <div class="row">
+      <!-- left block -->
+      <!-- right block -->
+      <div class="col-sm-12 col-md-12 col-lg-10" >
+        <div style="margin-top: 2%;margin-left: 8%" class="form-group row">
+          <div class="col-sm-10 offset-sm-2">
+            <h2><u>Details....</u></h2>
+          </div>
+          <div class="col-sm-3 offset-sm-2" style="float: right;margin-left: 40%">
+              <form method="POST" action="ViewProductsAdded">
+                <button type="submit" class="btn btn-lg btn-primary">View Products</button>              
+              </form>
+          </div>
+<!--           <div class="col-sm-3 offset-sm-2" style="float: right;">
+              <form method="get" action="DataAnalytics">
+                <button type="submit" class="btn btn-lg btn-primary">Data Analytics</button>              
+              </form>
+          </div> -->
+          <div class="col-sm-3 offset-sm-2" style="float: right;">
+              <form method="get" action="InventoryReports">
+                <button type="submit" class="btn btn-lg btn-primary">Inventory Reports</button>              
+              </form>
+          </div>
+          <div class="col-sm-3 offset-sm-2" style="float: right;">
+              <form method="get" action="SalesReports">
+                <button type="submit" class="btn btn-lg btn-primary">Sales Reports</button>              
+              </form>
+          </div>
+        </div>
+        <div style="margin-top: 5%;margin-left: 10%">
+          <form method="POST" action="AddProduct">
+              <div class="form-group row">
+                  <label class="col-sm-2 col-form-label">Product Category</label>
+                  <div class="col-sm-10">
+                    <select name='productType' class="form-control" class='input'>
+                        <option value='tv' selected>TV</option>
+                        <option value='soundSystem'>Sound System</option>
+                        <option value='phone'>Phone</option>
+                        <option value='laptop'>Laptop</option>
+                        <option value='voiceAssistant'>Voice Assistant</option>
+                        <option value='fitnessWatch'>Fitness Watch</option>
+                        <option value='smartWatch'>Smart Watch</option>
+                        <option value='headphone'>Headphone</option>
+                        <option value='wirelessPlan'>Wireless Plan</option>                  
+                    </select>            
+                  </div>            
+              </div>
+              <div style="margin-top: 5%" class="form-group row">
+                  <label for="inputPassword" class="col-sm-2 col-form-label">Product ID</label>
+                  <div class="col-sm-10">
+                      <input type="text" class="form-control" id="brand" name="productID" placeholder="Enter the Item ID">
+                  </div>
+              </div>    
+              <div style="margin-top: 5%" class="form-group row">
+                  <label for="inputPassword" class="col-sm-2 col-form-label">Manufacturer</label>
+                  <div class="col-sm-10">
+                      <input type="text" class="form-control" id="brand" name="productManufacturer" placeholder="Enter the Item Name">
+                  </div>
+              </div>              
+              <div style="margin-top: 5%" class="form-group row">
+                  <label for="inputPassword" class="col-sm-2 col-form-label">Item Name</label>
+                  <div class="col-sm-10">
+                      <input type="text" class="form-control" id="brand" name="productName" placeholder="Enter the Item Name">
+                  </div>
+              </div>
+              <div style="margin-top: 5%" class="form-group row">
+                  <label for="inputPassword" class="col-sm-2 col-form-label">Price</label>
+                  <div class="col-sm-10">
+                      <input type="text" class="form-control" id="brand" name="productPrice" placeholder="Enter the Price in Dollars">
+                  </div>
+              </div>
+              <div style="margin-top: 5%" class="form-group row">
+                  <label for="inputPassword" class="col-sm-2 col-form-label">Model</label>
+                  <div class="col-sm-10">
+                      <input type="text" class="form-control" id="brand" name="productModel" placeholder="Enter the Model Number">
+                  </div>
+              </div>
+              <div style="margin-top: 5%" class="form-group row">
+                  <label for="inputPassword" class="col-sm-2 col-form-label" style="font-weight: bolder;">SKU</label>
+                  <div class="col-sm-10">
+                      <input type="text" class="form-control" id="brand" name="productSKU" placeholder="Enter the SKU">
+                  </div>
+              </div>
+              <div style="margin-top: 5%" class="form-group row">
+                  <label for="inputPassword" class="col-sm-2 col-form-label">Upload an Image</label>
+                  <div class="col-sm-10">
+                      <input type="file" class="form-control" id="brand">
+                  </div>
+              </div>
+              <div style="margin-top: 2%;float: right;" class="form-group row">
+                  <div class="col-sm-10 offset-sm-2">
+                      <button type="submit" class="btn btn-lg btn-primary">Add item to the System</button>
+                  </div>
+              </div>
+          </form>
+        </div>
+		  </div>
+    </div>
+  </div>
+</div>

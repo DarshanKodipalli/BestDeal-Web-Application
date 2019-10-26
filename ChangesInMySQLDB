@@ -1,0 +1,10 @@
+1. Added p_quantity field, so execute
+	update product_catalog set p_quantity=10;
+
+2. Added p_on_sale field, so execute
+	update product_catalog set p_on_sale=1;
+
+3. Added p_discount field, so execute
+	update product_catalog set p_discount=15;
+
+4. Added p_order_date for orders table
