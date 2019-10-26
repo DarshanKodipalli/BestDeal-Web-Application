@@ -5,7 +5,7 @@ There's a Dashboard for all the user types and also different roles assigned for
 This application is coded in Java with **MySql Database** used to store Product, Cart and Order details and **MongoDB** used for storing the Customer Reviews for a particular Product.
 
 
- **Here are few Screenshots of the *BestDeal web Application***
+ Here are few Screenshots of the ***BestDeal web Application***
  
 ![Application Landing](https://github.com/DarshanKodipalli/BestDeal-Web-Application/blob/master/Application_Screenshots/1_Landing_screen.png)
 
