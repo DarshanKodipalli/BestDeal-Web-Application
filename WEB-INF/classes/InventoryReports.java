@@ -57,6 +57,8 @@ public class InventoryReports extends HttpServlet {
 		MySqlDataStoreUtilities.getAllProducts();
 		utility.printHtml("Header.html");
 		utility.printHtml("Pre-Content.html");
+
+
 		pw.print("<div style='margin-top:3%;margin-left:4%;'>");
 		pw.print("<a style='font-size: 28px;'><u>Product Details with Quantity left:</u></a>");
 		pw.print("<div  class='table-responsive-lg' style='margin-top:3%;'>");
@@ -65,7 +67,7 @@ public class InventoryReports extends HttpServlet {
 		pw.print("<th style='text-align:center;width:55%' scope='col' style='margin-left:12%;'>Product Name</th>");					
 		pw.print("<th style='text-align:center;width:25%' scope='col' style='margin-left:2%;'>Image</th>");		
 		pw.print("<th style='text-align:center;width:10%' scope='col' style='margin-left:2%;'>Price</th>");					
-		pw.print("<th style='text-align:center;width:10%' scope='col' style='margin-left:2%;'>Quantity</th>");		
+		pw.print("<th style='text-align:center;width:10%' scope='col' style='margin-left:2%;'>Quantity Available</th>");		
 		pw.print("</tr>");
 		pw.print("</table>");
 		pw.print("<div style='max-height:350px;overflow:auto;'>");
@@ -87,9 +89,9 @@ public class InventoryReports extends HttpServlet {
 			System.out.print(e);
 		}
 		pw.print("</table></div>");
-
-
 		pw.print("<hr style='margin-top: 8%'>");		
+
+
 
 		pw.print("<div style='margin-top:3%;'>");
 		pw.print("<a style='font-size: 28px;'><u>Product Details which are on Sale:</u></a>");
@@ -98,7 +100,7 @@ public class InventoryReports extends HttpServlet {
 
 
 		pw.print("<div style='margin-top:3%;'>");
-		pw.print("<a style='font-size: 28px;'><u>Product with Discount values:</u></a>");
+		pw.print("<a style='font-size: 28px;'><u>Products with Rebate values:</u></a>");
 		pw.print("<div  class='table-responsive-lg' style='margin-top:3%;'>");
 			pw.print("<table class='table table-striped' style='width:200%;'>");
 				pw.print("<tr>");

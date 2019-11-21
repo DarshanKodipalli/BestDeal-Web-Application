@@ -144,6 +144,7 @@ public static HashMap<String,User> selectUser()
 	}
 	return hm;			
 }
+
 public static String addproducts(String productId,String productType,String productName,double productPrice,String productSKU,String productModel,String productManufacturer,String productImage)
 {
 	String msg = "Product is added successfully";

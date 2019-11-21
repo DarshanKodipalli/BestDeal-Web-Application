@@ -81,10 +81,10 @@ public class Payment extends HttpServlet {
 				total = Math.round(total*100D)/100D;
 				String insertIntoCustomerOrderQuery = "INSERT INTO orders(o_username,o_name,o_price,o_type,o_image,o_manufacturer,o_model,o_sku,o_address,o_credit_card,o_status,o_order_date)"
 				+ "VALUES (?,?,?,?,?,?,?,?,?,?,?,?);";	
+
 				String updateProductQuantityStmt = "Update product_catalog set p_quantity=? where p_name=?";
 				PreparedStatement pst1 = conn.prepareStatement(insertIntoCustomerOrderQuery);
 				PreparedStatement updatestmt = conn.prepareStatement(updateProductQuantityStmt);					
-				//set the parameter for each column and execute the prepared statement
 				pst1.setString(1,utility.getUserName());
 				pst1.setString(2,rs.getString("p_name"));
 				pst1.setString(3,rs.getString("p_price"));

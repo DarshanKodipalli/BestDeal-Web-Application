@@ -47,8 +47,8 @@ function drawChart(data, productNameArr) {
     'width':2200,
     'height':2000,
     chart: {
-      title: 'Products with Sold Quantities',
-      subtitle: 'Based on the number of times the Product was sold'
+      title: 'Products with Revenue they Generated',
+      subtitle: 'Based on the number of times the Product was sold and their Per unit Price'
     },
     hAxis: {
       title: 'Quantity',

@@ -30,7 +30,7 @@ public class AddProduct extends HttpServlet {
 		productModel = request.getParameter("productModel");
 		productManufacturer = request.getParameter("productManufacturer");
 		String message = "";
-		productImage = "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6292/6292547_sd.jpg;maxHeight=640;maxWidth=550";
+		productImage = "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6421/6421026_sd.jpg;maxHeight=640;maxWidth=550";
 		try{
 			message = MySqlDataStoreUtilities.addproducts(productId,productType, productName, productPrice, productSKU, productModel, productManufacturer, productImage);
 		}catch(Exception e){

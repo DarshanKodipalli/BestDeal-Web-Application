@@ -108,6 +108,58 @@
 .card-price table .price{ font-size: 1.2em; font-weight: 700; text-align: left; }
 .card-price table .note{ color: #666; font-size: 0.8em; }
 
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+
+input[type=submit] {
+  background-color: DodgerBlue;
+  color: #fff;
+  cursor: pointer;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: #e9e9e9; 
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
   </style>
   <script>
 
@@ -128,6 +180,7 @@
   }
 
   </script>  
+<script type="text/javascript" src="javascript.js"></script>
 </head>
 <style media="screen">
   .second-header{background-color:#ffffff; list-style-type: none;margin: 0;padding: 0;}
@@ -136,7 +189,7 @@
   #accordion a,#accordion a:hover,#accordion a:focus{text-decoration: none;}
 .panel-default,.panel-group .panel,.panel-default>.panel-heading{border-radius: 0;}
 </style>
-<body>
+<body onload="init()">
 <!-- header -->
 <nav class="navbar navbar-inverse" style="margin-bottom: 0;border-radius:0;">
   <div class="container-fluid">
@@ -168,9 +221,10 @@
           </ul>
         </li>
       </ul>
-      <form class="navbar-form navbar-left" action="/action_page.php">
-      <div class="input-group">
-        <input type="text" size="80" class="form-control" placeholder="Search for the Best deals!" name="search">
+
+<!--       <form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="input-group autocomplete">
+        <input type="text" name="myProduct" id="myInput" size="80" class="form-control" placeholder="Search for the Best deals!">
         <div class="input-group-btn">
           <button class="btn btn-default" type="submit">
             <i class="glyphicon glyphicon-search"></i>
@@ -178,3 +232,132 @@
         </div>
       </div>
     </form>
+ -->
+
+<form method='post' action='SearchItem' class="navbar-form navbar-left" autocomplete="off">
+  <div class="input-group autocomplete">
+    <input id="myInput" type="text" name="myProduct" size="80" class="form-control" placeholder="Search for the Best deals!">
+    <div class="input-group-btn">
+      <button class="btn btn-default" type="submit">
+        <i class="glyphicon glyphicon-search"></i>
+      </button>
+    </div>
+  </div>
+</form>
+
+<script>
+function autocomplete(inp, arr) {
+  /*the autocomplete function takes two arguments,
+  the text field element and an array of possible autocompleted values:*/
+  var currentFocus;
+  /*execute a function when someone writes in the text field:*/
+  inp.addEventListener("input", function(e) {
+      var a, b, i, val = this.value;
+      /*close any already open lists of autocompleted values*/
+      closeAllLists();
+      if (!val) { return false;}
+      currentFocus = -1;
+      /*create a DIV element that will contain the items (values):*/
+      a = document.createElement("DIV");
+      a.setAttribute("id", this.id + "autocomplete-list");
+      a.setAttribute("class", "autocomplete-items");
+      /*append the DIV element as a child of the autocomplete container:*/
+      this.parentNode.appendChild(a);
+      /*for each item in the array...*/
+      for (i = 0; i < arr.length; i++) {
+        /*check if the item starts with the same letters as the text field value:*/
+        if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+          /*create a DIV element for each matching element:*/
+          b = document.createElement("DIV");
+          /*make the matching letters bold:*/
+          b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+          b.innerHTML += arr[i].substr(val.length);
+          /*insert a input field that will hold the current array item's value:*/
+          b.innerHTML += "<input name='searchResult' type='hidden' value='" + arr[i] + "'>";
+          /*execute a function when someone clicks on the item value (DIV element):*/
+          b.addEventListener("click", function(e) {
+              /*insert the value for the autocomplete text field:*/
+              inp.value = this.getElementsByTagName("input")[0].value;
+              /*close the list of autocompleted values,
+              (or any other open lists of autocompleted values:*/
+              closeAllLists();
+          });
+          a.appendChild(b);
+        }
+      }
+  });
+  /*execute a function presses a key on the keyboard:*/
+  inp.addEventListener("keydown", function(e) {
+      var x = document.getElementById(this.id + "autocomplete-list");
+      if (x) x = x.getElementsByTagName("div");
+      if (e.keyCode == 40) {
+        /*If the arrow DOWN key is pressed,
+        increase the currentFocus variable:*/
+        currentFocus++;
+        /*and and make the current item more visible:*/
+        addActive(x);
+      } else if (e.keyCode == 38) { //up
+        /*If the arrow UP key is pressed,
+        decrease the currentFocus variable:*/
+        currentFocus--;
+        /*and and make the current item more visible:*/
+        addActive(x);
+      } else if (e.keyCode == 13) {
+        /*If the ENTER key is pressed, prevent the form from being submitted,*/
+        e.preventDefault();
+        if (currentFocus > -1) {
+          /*and simulate a click on the "active" item:*/
+          if (x) x[currentFocus].click();
+        }
+      }
+  });
+  function addActive(x) {
+    /*a function to classify an item as "active":*/
+    if (!x) return false;
+    /*start by removing the "active" class on all items:*/
+    removeActive(x);
+    if (currentFocus >= x.length) currentFocus = 0;
+    if (currentFocus < 0) currentFocus = (x.length - 1);
+    /*add class "autocomplete-active":*/
+    x[currentFocus].classList.add("autocomplete-active");
+  }
+  function removeActive(x) {
+    /*a function to remove the "active" class from all autocomplete items:*/
+    for (var i = 0; i < x.length; i++) {
+      x[i].classList.remove("autocomplete-active");
+    }
+  }
+  function closeAllLists(elmnt) {
+    /*close all autocomplete lists in the document,
+    except the one passed as an argument:*/
+    var x = document.getElementsByClassName("autocomplete-items");
+    for (var i = 0; i < x.length; i++) {
+      if (elmnt != x[i] && elmnt != inp) {
+        x[i].parentNode.removeChild(x[i]);
+      }
+    }
+  }
+  /*execute a function when someone clicks in the document:*/
+  document.addEventListener("click", function (e) {
+      closeAllLists(e.target);
+  });
+}
+
+/*An array containing all the country names in the world:*/
+var countries = ["Apple - iPhone XS Max 64GB - Gold (Verizon)", "Apple - iPhone 11 Pro 64GB - Midnight Green (Verizon)", "Apple - iPhone XR 64GB - White (AT'nT)", "Apple - iPhone 7 32GB - Black (Sprint)", "Apple - iPhone 8 64GB - Gold (AT'nT)", "ASUS - 14' Touch-Screen Laptop - AMD Ryzen 5 - 8GB Memory - 256GB Solid State Drive - Silver", "ASUS - ROG G531GT 15.6' Gaming Laptop - Intel Core…eForce GTX 1650 - 512GB Solid State Drive - Black", "ASUS - 2-in-1 15.6' 4K Ultra HD Touch-Screen Lapto…rce GTX 1050 2TB HDD + 256GB SSD - Gun Metal Gray", "Dell - Inspiron 2-in-1 13.3' 4K Ultra HD Touch-Screen Laptop - Intel Core i7 - 16GB Memory", "Dell - Inspiron 15.6' 7000 2-in-1 4K Ultra HD Touc…16GB - GeForce MX250 - 512GB SSD + Optane - Black", "Dell - Inspiron 2-in-1 13.3' Touch-Screen Laptop 5 - 8GB Memory - 256GB Solid State Drive - Silver", "Garmin - Fenix 6X Pro Solar GPS/GLONASS/Galileo Watch - Black", "Fitbit - Ionic Smartwatch - Charcoal/smoke gray", "Apple - Apple Watch Nike+ Series 4 (GPS) 44mm Spac…acite/Black Nike Sport Band - Space Gray Aluminum", "Fitbit - Versa Lite Edition Smartwatch - Silver with Charcoal Silicone Band", "Fitbit - Inspire HR Activity Tracker + Heart Rate - Black", "Fitbit - Versa 2 Smartwatch 40mm Aluminum - Black/Carbon with Silicone Band", "Suunto - Traverse Alpha GPS Watch - Stealth", "Suunto - Spartan Trainer GPS Heart Rate Monitor Sports Watch - Black", "Suunto - 9 GPS Multisport Watch - Black", "Apple - Apple Watch Series 5 (GPS + Cellular) 40mm…se with Gold Milanese Loop - Gold Stainless Steel", "Apple - Apple Watch Nike+ Series 3 (GPS) 42mm Spac…acite/Black Nike Sport Band - Space Gray Aluminum", "Apple - Apple Watch Series 3 (GPS) 38mm Space Gray… Case with Black Sport Band - Space Gray Aluminum", "Samsung - Galaxy Watch Active2 Smartwatch 40mm Aluminum - Cloud Silver", "Samsung - Galaxy Watch Active Smartwatch 40mm Aluminum - Black", "Samsung - Geek Squad Certified Refurbished Gear Fit2 Pro Fitness Watch (Large) - Black", "Garmin - Forerunner 35 GPS Watch - White", "Garmin - Forerunner 35 GPS Watch - Black", "Google - Pixel 3 XL - Just Black (Sprint)", "Google - Pixel 3 with 64GB Memory Cell Phone (Unlocked) - Just Black", "Google - Pixel 3a with 64GB Memory Cell Phone (Unlocked) - Purple-ish", "Google - Pixel 3 XL 128GB - Just Black (Verizon)", "Google - Geek Squad Certified Refurbished Pixel 2 …ith 64GB Memory Cell Phone - Just Black (Verizon)", "Skullcandy - Indy True Wireless In-Ear Headphones - Black", "Sennheiser - HD 4.50 BTNC Wireless Over-the-Ear Noise Canceling Headphones - Black", "Sennheiser - MOMENTUM True Wireless Earbud Headphones - Silver/Black", "Sennheiser - Momentum (M2) Wireless Over-the-Ear Headphones - Black", "Beats by Dr. Dre - Beats Studio³ Wireless Noise Canceling Headphones - Matte Black", "Skullcandy - Push True Wireless In-Ear Headphones - Psychotropical Teal", "Skullcandy - Sesh True Wireless In-Ear Headphones - Black", "Beats by Dr. Dre - Beats EP Headphones - Black", "Beats by Dr. Dre - Powerbeats Pro Totally Wireless Earphones - Black", "Beats by Dr. Dre - Beats Solo³ Wireless Headphones - Black", "Sony - ZX Series Wired On-Ear Headphones - Black", "Sony - Noise-Canceling Wired On-Ear Headphones - Black", "Sony - WH-CH700N Wireless Noise Canceling Over-the-Ear Headphones - Black", "Bose® - SoundSport® Wireless In-Ear Headphones - Black", "Bose® - QuietComfort 35 Wireless Noise Cancelling Headphones II - Black", "Yamaha - 725W 5.1-Ch. Hi-Res 3D Home Theater Speaker System - Black", "Polk Audio - Blackstone TL1600 and Denon AVR-S540BT", "Boytone - 2.1-Ch. Home Theater System - Black", "Bose® - Lifestyle® 650 home entertainment system - Black", "Bose® - Lifestyle® 600 home entertainment system - Black", "HP - ENVY x360 2-in-1 15.6' Touch-Screen Laptop - Intel Core i7 - 8GB Memory - 512GB SSD", "HP - 15.6' Touch-Screen Laptop - Intel Core i5 - 12GB Memory - 256GB SSD + Optane - Natural Silver", "HP - Envy 17.3' Touch-Screen Laptop - Intel Core i7 - 12GB Memory - 512GB SSD + Optane -", "Lenovo - S340-15API Touch 15.6' Touch-Screen Lapto… 5 - 12GB Memory - 1TB Hard Drive - Platinum Gray", "Lenovo - Yoga C630 WOS 2-in-1 13.3' Touch-Screen L…y - 128GB Solid State Drive (Verizon) - Iron Gray", "Lenovo - IdeaPad 130S 11.6' Laptop - Intel Celeron…GB Memory - 64GB eMMC Flash Memory - Mineral Gray", "Lenovo - L340-15API 15.6' Laptop - AMD Ryzen 3 - 8GB Memory - 1TB Hard Drive - Platinum Gray", "LG - 65' Class - LED - UK6090PUA Series - 2160p - Smart - 4K UHD TV with HDR", "LG - 55' Class - LED - UM6910PUC Series - 2160p - Smart - 4K UHD TV with HDR", "LG - 65' Class - OLED - C9PUA Series - 2160p - Smart - 4K UHD TV with HDR", "LG - 65' Class - LED - UM7300PUA Series - 2160p - Smart - 4K UHD TV with HDR", "Apple - MacBook Air 13.3' Refurbished Laptop - Int…5 - 4GB Memory - 128GB Solid State Drive - Silver", "Apple - MacBook Air 13.3' Laptop with Touch ID - I…8GB Solid State Drive (Latest Model) - Space Gray", "Apple - MacBook Air 13.3' Laptop with Touch ID - I…6GB Solid State Drive (Latest Model) - Space Gray", "Apple - MacBook Air - 13.3' Retina Display - Intel…5 - 8GB Memory - 128GB Flash Storage - Space Gray", "Cricket Wireless - Motorola Moto G6 Forge with 16GB Memory Prepaid Cell Phone - Deep Indigo", "Motorola - Moto Z3 Play with 32GB Memory Cell Phone (Unlocked) - Deep Indigo", "Motorola - Moto G7 Play with 32GB Memory Cell Phone (Unlocked) - Deep Indigo", "Motorola - Motorola One with 64GB Memory Cell Phone (Unlocked) - White", "Verizon Prepaid - Motorola Moto E5 go - Black", "Nokia - 3310 Cell Phone (Unlocked) - Charcoal", "Nokia - 2.2 with 32GB Memory Cell Phone (Unlocked) - Steel", "Nokia - 7.1 with 64GB Memory Cell Phone (Unlocked) - Blue", "Nokia - 4.2 with 32GB Memory Cell Phone (Unlocked) - Pink Sand", "AT'nT Prepaid - Nokia 3.1 A with 32GB Memory Prepaid Cell Phone - Black", "Samsung - 55' Class - LED - NU6900 Series - 2160p - Smart - 4K UHD TV with HDR", "Samsung - 40' Class - LED - 5 Series - 1080p - Smart - HDTV", "Samsung - 75' Class - LED - 7 Series - 2160p - Smart - 4K UHD TV with HDR", "Samsung - 65' Class - LED - Q70 Series - 2160p - Smart - 4K UHD TV with HDR", "Samsung - 65' Class - LED - 8 Series - 2160p - Smart - 4K UHD TV with HDR", "Samsung - Galaxy S8+ 64GB - Midnight Black (Sprint)", "Samsung - Galaxy J7 TOP - Black (Verizon)", "Samsung - Galaxy J7 Refine (2018) - Gold (Sprint)", "Samsung - Galaxy J3 Achieve (2018) - Black (Sprint)", "Samsung - Galaxy J3 (2018) (AT'nT)", "Samsung - Gear S3 Wireless Charging Dock - Black", "WITHit - Band Kit for Fitbit Ionic (2-Pack) - Green/Black", "Samsung - Galaxy Watch Active2 Smartwatch 44mm Stainless Steel LTE (Unlocked) - Gold", "Samsung - Geek Squad Certified Refurbished Gear Fit2 Pro Fitness Watch (Large) - Black", "Garmin - Forerunner 35 GPS Watch - Frost blue", "Garmin - Forerunner 35 GPS Watch - Black", "Garmin - Forerunner 235 GPS Running Watch - Black/Gray", "ZAGG - InvisibleShield HD Clear for Fitbit Versa and Versa Lite - Crystal Clear", "ZAGG - HD Clear Shield Screen Protector for Apple Watch™ 42mm - Clear", "Pebble - Leather Band for 14mm Pebble Time Round Smartwatches - Opera Red", "Sony - 65' Class - LED - X950G Series - 2160p - Smart - 4K UHD TV with HDR", "Sony - 55' Class - LED - X800G Series - 2160p - Smart - 4K UHD TV with HDR","Cricket Wireless - $55 Refill Card","Cricket Wireless - $60 Refill Card","Simple Mobile - Truly Unlimited 2-Line 30-Day Plan","Amazon - Echo Spot - smart alarm clock with Alexa - Black","Amazon - Echo Show 5 Smart Display with Alexa - Charcoal","Amazon - Echo Dot (3rd Gen) - Smart Speaker with Alexa - Heather Gray","Amazon - Echo (2nd Gen) - Smart Speaker with Alexa - Charcoal Fabric","iHome - iGV1 Wireless Smart Speaker with Google Voice Assistant - White","iHome - iBT58 Portable Bluetooth Speaker with Siri Voice Assistant - Blac","iHome - iBT5888 Portable Bluetooth Speaker with Siri Voice Assistant - Blac","TracFone Wireless - $39.99 Basic Phone Card","Amazon - Echo Buds True Wireless In-Ear Headphones - Black"];
+
+/*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
+autocomplete(document.getElementById("myInput"), countries);
+</script>
+
+<!--       <form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="input-group autocomplete">
+        <input type="text" name="myProduct" id="myInput" size="80" class="form-control" placeholder="Search for the Best deals!">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+ -->

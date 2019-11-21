@@ -68,7 +68,7 @@ public class DataVisualization extends HttpServlet {
         utility.printHtml("Pre-Content.html");
 
         pw.print("<div id='content'><div class='post'>");
-        pw.print("<h2 class='title meta'><a style='font-size: 24px;'>Product Details with Quantities which are on Sale:</a></h2>"
+        pw.print("<h2 class='title meta'><a style='font-size: 24px;'>Product Details with Quantities which are Available:</a></h2>"
                 + "<div class='entry'>");
 
         pw.print("<h3><button id='btnGetChartData'>View Chart</h3>");
