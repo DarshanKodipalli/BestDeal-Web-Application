@@ -130,13 +130,15 @@ public class AddToCart extends HttpServlet {
 				pw.print("<hr style='margin-top: 1%'><div class='row' style='margin-top: 1%;margin-left: 10%'><div style='margin-left: 3%' class='column' ><h3 class='caption text-center'>Total</h3></div><div style='margin-left: 15%' class='column' >");
 				pw.print("<h1 style='font-weight:bolder'>$"+total+"</h1>");
 				pw.print("</div></div><hr style='margin-top: 1%'>");
-
+				pw.print(carousel.carouselfeature(utility));
+				pw.print("<hr style='margin-top: 1%'>");
 				pw.print("  <div style='float: right;'><form name ='Cart' action='CheckOut' method='post'><button value='actualCheckout' name='formAction' class='btn btn-success btn-lg'><input type='hidden' name='p_quantity' value='"+rs.getString("p_quantity")+"'><i class='fa fa-shopping-cart'></i>&nbsp;&nbsp;Check Out</button></form>");
-
 				pw.print("</div></div></form>");
-				pw.print("</div></div>");
-				pw.print("</div>");
 
+
+				pw.print("</div>");
+				pw.print("</div>");				
+				pw.print("</div>");
 		}catch(Exception e){
 			System.out.print(e);
 		}

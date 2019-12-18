@@ -187,4 +187,25 @@ public static void getAllProducts(){
 		e.printStackTrace();
 	}
 }
+public static HashMap<String,Product> getData()
+	{
+		HashMap<String,Product> hm=new HashMap<String,Product>();
+		try
+		{
+			getConnection();
+			Statement stmt=conn.createStatement();
+			String selectCustomerQuery="select * from  product_catalog";
+			ResultSet rs = stmt.executeQuery(selectCustomerQuery);
+			while(rs.next())
+			{	
+				Product p = new Product(rs.getString("p_id"),rs.getString("p_name"),rs.getString("p_type"),rs.getDouble("p_price"),rs.getString("p_image"),rs.getString("p_manufacturer"),rs.getString("p_quantity"),rs.getString("p_model"),rs.getString("p_sku"),rs.getString("p_on_sale"),rs.getString("p_quantity"));
+				hm.put(rs.getString("Id"), p);
+			}
+		}
+		catch(Exception e)
+		{
+		e.printStackTrace();	
+		}
+		return hm;			
+	}
 }	

@@ -17,12 +17,7 @@
   padding: 2px;
 }  
 hr {
-  margin-left: 3%
-  margin-top: 5%;
-  margin-bottom: 1rem;
-  border: 0;
-  width: 100%;
-  border-top: 5px solid grey;
+  margin-left: 3%;margin-top: 5%;margin-bottom: 1rem;border: 0;width: 100%;border-top: 5px solid grey;
 }
 .checked {
   color: orange;
